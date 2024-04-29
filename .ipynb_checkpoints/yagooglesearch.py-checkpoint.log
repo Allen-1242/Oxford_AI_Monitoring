@@ -1,0 +1,688 @@
+2024-03-18 05:37:09,877 [MainThread  ] [INFO] Requesting URL: https://www.google.com/
+2024-03-18 05:37:10,832 [MainThread  ] [DEBUG]     status_code: 200
+2024-03-18 05:37:10,834 [MainThread  ] [DEBUG]     headers: {'User-Agent': 'Mozilla/5.0 (Windows NT 5.1; U; zh-cn; rv:1.8.1) Gecko/20091102 Firefox/3.5.5'}
+2024-03-18 05:37:10,835 [MainThread  ] [DEBUG]     cookies: <RequestsCookieJar[<Cookie 1P_JAR=2024-03-18-09 for .google.com/>, <Cookie AEC=Ae3NU9PTc_wfaeP1B8LUf9z-cn45k6k02pq9D6eylw7ofZiTTd8L7KPuf8c for .google.com/>, <Cookie NID=512=ac3VYz8aVyuK4iwYtI3W-pHKUJaC_WQd1sqKgyprSkNeJBsbvBfSQzB6pTxUsYQJlztrbq3aecH7tQ2eggUJYCmVnkbRAAQD0nTjvUciNGoKrgKLth1ibgfeJ98NCxiCy32BHI5zeiq7eSeX-BHn_R0zWGMDZhXbUrs76NyMSw4 for .google.com/>]>
+2024-03-18 05:37:10,837 [MainThread  ] [DEBUG]     proxy: 
+2024-03-18 05:37:10,838 [MainThread  ] [DEBUG]     verify_ssl: True
+2024-03-18 05:37:10,842 [MainThread  ] [INFO] Stats: start=0, num=100, total_valid_links_found=0 / max_search_result_urls_to_return=100
+2024-03-18 05:37:10,843 [MainThread  ] [INFO] Requesting URL: https://www.google.com/search?hl=en&lr=lang_en&q=site%3Agithub.com&num=100&btnG=Google+Search&tbs=li:1&safe=off&cr=&filter=0
+2024-03-18 05:37:11,548 [MainThread  ] [DEBUG]     status_code: 200
+2024-03-18 05:37:11,549 [MainThread  ] [DEBUG]     headers: {'User-Agent': 'Mozilla/5.0 (Windows NT 5.1; U; zh-cn; rv:1.8.1) Gecko/20091102 Firefox/3.5.5'}
+2024-03-18 05:37:11,550 [MainThread  ] [DEBUG]     cookies: <RequestsCookieJar[<Cookie 1P_JAR=2024-03-18-09 for .google.com/>, <Cookie NID=512=mwBrUDvuZsm9NaPaXovEVZkPzioHEwFKX32U67MMOffSsL6dEHIfsHu2_-qa9gyJiiEIN0rc2S8VOxEy8oWYaP4gLZPaIL-_2kBABocoui5WQ-758XcA6j38tg5ZH1cdks97Uif57dx_JH365nrl5CPSIafl0pYmPSriU2yPEgU for .google.com/>]>
+2024-03-18 05:37:11,551 [MainThread  ] [DEBUG]     proxy: 
+2024-03-18 05:37:11,552 [MainThread  ] [DEBUG]     verify_ssl: True
+2024-03-18 05:37:11,612 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /?num=100&lr=lang_en&safe=off&sa=G&sca_esv=6be0610c35f7fcbd&hl=en&output=search&tbs=lr:lang_1en&ved=0ahUKEwjovtrQwf2EAxWaElkFHd2fBukQPAgC
+2024-03-18 05:37:11,613 [MainThread  ] [DEBUG] Excluding URL because it does not contain a urllib.parse.urlparse netloc value: /?num=100&lr=lang_en&safe=off&sa=G&sca_esv=6be0610c35f7fcbd&hl=en&output=search&tbs=lr:lang_1en&ved=0ahUKEwjovtrQwf2EAxWaElkFHd2fBukQPAgC
+2024-03-18 05:37:11,613 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2024-03-18 05:37:11,614 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /search?q=site:github.com&num=100&lr=lang_en&safe=off&sca_esv=6be0610c35f7fcbd&hl=en&tbs=lr:lang_1en&tbm=bks&source=lnms&sa=X&ved=0ahUKEwjovtrQwf2EAxWaElkFHd2fBukQ_AUIBSgB
+2024-03-18 05:37:11,614 [MainThread  ] [DEBUG] Excluding URL because it does not contain a urllib.parse.urlparse netloc value: /search?q=site:github.com&num=100&lr=lang_en&safe=off&sca_esv=6be0610c35f7fcbd&hl=en&tbs=lr:lang_1en&tbm=bks&source=lnms&sa=X&ved=0ahUKEwjovtrQwf2EAxWaElkFHd2fBukQ_AUIBSgB
+2024-03-18 05:37:11,614 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2024-03-18 05:37:11,615 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /search?q=site:github.com&num=100&lr=lang_en&safe=off&sca_esv=6be0610c35f7fcbd&hl=en&tbs=lr:lang_1en&tbm=isch&source=lnms&sa=X&ved=0ahUKEwjovtrQwf2EAxWaElkFHd2fBukQ_AUIBigC
+2024-03-18 05:37:11,615 [MainThread  ] [DEBUG] Excluding URL because it does not contain a urllib.parse.urlparse netloc value: /search?q=site:github.com&num=100&lr=lang_en&safe=off&sca_esv=6be0610c35f7fcbd&hl=en&tbs=lr:lang_1en&tbm=isch&source=lnms&sa=X&ved=0ahUKEwjovtrQwf2EAxWaElkFHd2fBukQ_AUIBigC
+2024-03-18 05:37:11,616 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2024-03-18 05:37:11,616 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /search?q=site:github.com&num=100&lr=lang_en&safe=off&sca_esv=6be0610c35f7fcbd&hl=en&tbs=lr:lang_1en&tbm=vid&source=lnms&sa=X&ved=0ahUKEwjovtrQwf2EAxWaElkFHd2fBukQ_AUIBygD
+2024-03-18 05:37:11,616 [MainThread  ] [DEBUG] Excluding URL because it does not contain a urllib.parse.urlparse netloc value: /search?q=site:github.com&num=100&lr=lang_en&safe=off&sca_esv=6be0610c35f7fcbd&hl=en&tbs=lr:lang_1en&tbm=vid&source=lnms&sa=X&ved=0ahUKEwjovtrQwf2EAxWaElkFHd2fBukQ_AUIBygD
+2024-03-18 05:37:11,617 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2024-03-18 05:37:11,617 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /url?q=https://github.com/&sa=U&ved=2ahUKEwjovtrQwf2EAxWaElkFHd2fBukQFnoECAQQAg&usg=AOvVaw2UZcWhMA7vjifWO4HMUX24
+2024-03-18 05:37:11,617 [MainThread  ] [DEBUG] post filter_search_result_urls() link: https://github.com/
+2024-03-18 05:37:11,618 [MainThread  ] [INFO] Found unique URL #1: https://github.com/
+2024-03-18 05:37:11,618 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /url?q=https://github.com/mattermost&sa=U&ved=2ahUKEwjovtrQwf2EAxWaElkFHd2fBukQFnoECGQQAg&usg=AOvVaw3ZXZQePJGCqcPyTh0HXfCf
+2024-03-18 05:37:11,618 [MainThread  ] [DEBUG] post filter_search_result_urls() link: https://github.com/mattermost
+2024-03-18 05:37:11,618 [MainThread  ] [INFO] Found unique URL #2: https://github.com/mattermost
+2024-03-18 05:37:11,619 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /url?q=https://github.com/mattermost/mattermost&sa=U&ved=2ahUKEwjovtrQwf2EAxWaElkFHd2fBukQ0gJ6BAhkEAU&usg=AOvVaw2m85L1IYhWJCn0XPlYdC9X
+2024-03-18 05:37:11,619 [MainThread  ] [DEBUG] post filter_search_result_urls() link: https://github.com/mattermost/mattermost
+2024-03-18 05:37:11,619 [MainThread  ] [INFO] Found unique URL #3: https://github.com/mattermost/mattermost
+2024-03-18 05:37:11,619 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /url?q=https://github.com/mattermost/mattermost-mobile&sa=U&ved=2ahUKEwjovtrQwf2EAxWaElkFHd2fBukQ0gJ6BAhkEAY&usg=AOvVaw3kh_gmdC62W58dQJI6kA3L
+2024-03-18 05:37:11,620 [MainThread  ] [DEBUG] post filter_search_result_urls() link: https://github.com/mattermost/mattermost-mobile
+2024-03-18 05:37:11,620 [MainThread  ] [INFO] Found unique URL #4: https://github.com/mattermost/mattermost-mobile
+2024-03-18 05:37:11,620 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /url?q=https://github.com/mattermost/desktop&sa=U&ved=2ahUKEwjovtrQwf2EAxWaElkFHd2fBukQ0gJ6BAhkEAc&usg=AOvVaw0UiMQEjvIZLUrsrNHo1p2_
+2024-03-18 05:37:11,621 [MainThread  ] [DEBUG] post filter_search_result_urls() link: https://github.com/mattermost/desktop
+2024-03-18 05:37:11,621 [MainThread  ] [INFO] Found unique URL #5: https://github.com/mattermost/desktop
+2024-03-18 05:37:11,621 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /url?q=https://github.com/mattermost/focalboard&sa=U&ved=2ahUKEwjovtrQwf2EAxWaElkFHd2fBukQ0gJ6BAhkEAg&usg=AOvVaw38qAEA5UsNAhtzvGQ9kflN
+2024-03-18 05:37:11,622 [MainThread  ] [DEBUG] post filter_search_result_urls() link: https://github.com/mattermost/focalboard
+2024-03-18 05:37:11,622 [MainThread  ] [INFO] Found unique URL #6: https://github.com/mattermost/focalboard
+2024-03-18 05:37:11,622 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /url?q=https://github.com/puppeteer&sa=U&ved=2ahUKEwjovtrQwf2EAxWaElkFHd2fBukQFnoECGMQAg&usg=AOvVaw0ZudeDC7Ppcze5SVPwYKdr
+2024-03-18 05:37:11,622 [MainThread  ] [DEBUG] post filter_search_result_urls() link: https://github.com/puppeteer
+2024-03-18 05:37:11,623 [MainThread  ] [INFO] Found unique URL #7: https://github.com/puppeteer
+2024-03-18 05:37:11,623 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /url?q=https://github.com/django&sa=U&ved=2ahUKEwjovtrQwf2EAxWaElkFHd2fBukQFnoECGIQAg&usg=AOvVaw3La8LSTkdwNP_2eZp_Vc_s
+2024-03-18 05:37:11,623 [MainThread  ] [DEBUG] post filter_search_result_urls() link: https://github.com/django
+2024-03-18 05:37:11,623 [MainThread  ] [INFO] Found unique URL #8: https://github.com/django
+2024-03-18 05:37:11,624 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /url?q=https://github.com/django/django&sa=U&ved=2ahUKEwjovtrQwf2EAxWaElkFHd2fBukQ0gJ6BAhiEAU&usg=AOvVaw3TsQldyn25O8j_HLDzxFie
+2024-03-18 05:37:11,624 [MainThread  ] [DEBUG] post filter_search_result_urls() link: https://github.com/django/django
+2024-03-18 05:37:11,624 [MainThread  ] [INFO] Found unique URL #9: https://github.com/django/django
+2024-03-18 05:37:11,625 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /url?q=https://github.com/django/djangoproject.com&sa=U&ved=2ahUKEwjovtrQwf2EAxWaElkFHd2fBukQ0gJ6BAhiEAY&usg=AOvVaw0WBYTK1pMhM0q7YZx9sjc1
+2024-03-18 05:37:11,625 [MainThread  ] [DEBUG] post filter_search_result_urls() link: https://github.com/django/djangoproject.com
+2024-03-18 05:37:11,625 [MainThread  ] [INFO] Found unique URL #10: https://github.com/django/djangoproject.com
+2024-03-18 05:37:11,625 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /url?q=https://github.com/orgs/django/projects&sa=U&ved=2ahUKEwjovtrQwf2EAxWaElkFHd2fBukQ0gJ6BAhiEAc&usg=AOvVaw1Zn_BdqAXUBhnr7Uzh-ZG3
+2024-03-18 05:37:11,625 [MainThread  ] [DEBUG] post filter_search_result_urls() link: https://github.com/orgs/django/projects
+2024-03-18 05:37:11,626 [MainThread  ] [INFO] Found unique URL #11: https://github.com/orgs/django/projects
+2024-03-18 05:37:11,626 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /url?q=https://github.com/orgs/django/packages&sa=U&ved=2ahUKEwjovtrQwf2EAxWaElkFHd2fBukQ0gJ6BAhiEAg&usg=AOvVaw1RxMkYVm5-04gNVh3rL1wO
+2024-03-18 05:37:11,626 [MainThread  ] [DEBUG] post filter_search_result_urls() link: https://github.com/orgs/django/packages
+2024-03-18 05:37:11,627 [MainThread  ] [INFO] Found unique URL #12: https://github.com/orgs/django/packages
+2024-03-18 05:37:11,627 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /url?q=https://github.com/streamlit&sa=U&ved=2ahUKEwjovtrQwf2EAxWaElkFHd2fBukQFnoECGEQAg&usg=AOvVaw24ZLXvc9DvCyXq_usL3ukK
+2024-03-18 05:37:11,627 [MainThread  ] [DEBUG] post filter_search_result_urls() link: https://github.com/streamlit
+2024-03-18 05:37:11,627 [MainThread  ] [INFO] Found unique URL #13: https://github.com/streamlit
+2024-03-18 05:37:11,627 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /url?q=https://github.com/neovim&sa=U&ved=2ahUKEwjovtrQwf2EAxWaElkFHd2fBukQFnoECGAQAg&usg=AOvVaw1_xal7BMIKcasy-t3T0n0D
+2024-03-18 05:37:11,628 [MainThread  ] [DEBUG] post filter_search_result_urls() link: https://github.com/neovim
+2024-03-18 05:37:11,628 [MainThread  ] [INFO] Found unique URL #14: https://github.com/neovim
+2024-03-18 05:37:11,628 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /url?q=https://github.com/moq&sa=U&ved=2ahUKEwjovtrQwf2EAxWaElkFHd2fBukQFnoECF8QAg&usg=AOvVaw3-UHvJ2fEx2nq4Rigo815E
+2024-03-18 05:37:11,628 [MainThread  ] [DEBUG] post filter_search_result_urls() link: https://github.com/moq
+2024-03-18 05:37:11,629 [MainThread  ] [INFO] Found unique URL #15: https://github.com/moq
+2024-03-18 05:37:11,629 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /url?q=https://github.com/hiteshchoudhary&sa=U&ved=2ahUKEwjovtrQwf2EAxWaElkFHd2fBukQFnoECF4QAg&usg=AOvVaw1bv6LxPLm2dtNe_ujVTiWR
+2024-03-18 05:37:11,629 [MainThread  ] [DEBUG] post filter_search_result_urls() link: https://github.com/hiteshchoudhary
+2024-03-18 05:37:11,629 [MainThread  ] [INFO] Found unique URL #16: https://github.com/hiteshchoudhary
+2024-03-18 05:37:11,630 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /url?q=https://github.com/topics&sa=U&ved=2ahUKEwjovtrQwf2EAxWaElkFHd2fBukQFnoECF0QAg&usg=AOvVaw1GKXctha7fuk8ctGWz_MEK
+2024-03-18 05:37:11,630 [MainThread  ] [DEBUG] post filter_search_result_urls() link: https://github.com/topics
+2024-03-18 05:37:11,630 [MainThread  ] [INFO] Found unique URL #17: https://github.com/topics
+2024-03-18 05:37:11,630 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /url?q=https://github.com/owid&sa=U&ved=2ahUKEwjovtrQwf2EAxWaElkFHd2fBukQFnoECFoQAg&usg=AOvVaw0N4AYDt8kmwdsETh-wV4Lm
+2024-03-18 05:37:11,630 [MainThread  ] [DEBUG] post filter_search_result_urls() link: https://github.com/owid
+2024-03-18 05:37:11,631 [MainThread  ] [INFO] Found unique URL #18: https://github.com/owid
+2024-03-18 05:37:11,631 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /url?q=https://github.com/mapbox&sa=U&ved=2ahUKEwjovtrQwf2EAxWaElkFHd2fBukQFnoECFsQAg&usg=AOvVaw0TEd2Rbj6nxx837xERux7s
+2024-03-18 05:37:11,631 [MainThread  ] [DEBUG] post filter_search_result_urls() link: https://github.com/mapbox
+2024-03-18 05:37:11,631 [MainThread  ] [INFO] Found unique URL #19: https://github.com/mapbox
+2024-03-18 05:37:11,632 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /url?q=https://github.com/torvalds&sa=U&ved=2ahUKEwjovtrQwf2EAxWaElkFHd2fBukQFnoECFgQAg&usg=AOvVaw2bjyRAoKQuwYD2FnUTupGV
+2024-03-18 05:37:11,632 [MainThread  ] [DEBUG] post filter_search_result_urls() link: https://github.com/torvalds
+2024-03-18 05:37:11,632 [MainThread  ] [INFO] Found unique URL #20: https://github.com/torvalds
+2024-03-18 05:37:11,632 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /url?q=https://github.com/shadowsocks&sa=U&ved=2ahUKEwjovtrQwf2EAxWaElkFHd2fBukQFnoECFwQAg&usg=AOvVaw01ygcgd4ihRahZHbOSV6BE
+2024-03-18 05:37:11,632 [MainThread  ] [DEBUG] post filter_search_result_urls() link: https://github.com/shadowsocks
+2024-03-18 05:37:11,633 [MainThread  ] [INFO] Found unique URL #21: https://github.com/shadowsocks
+2024-03-18 05:37:11,633 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /url?q=https://github.com/tiangolo&sa=U&ved=2ahUKEwjovtrQwf2EAxWaElkFHd2fBukQFnoECFkQAg&usg=AOvVaw3iLn4NMvImJx2151pzoXst
+2024-03-18 05:37:11,633 [MainThread  ] [DEBUG] post filter_search_result_urls() link: https://github.com/tiangolo
+2024-03-18 05:37:11,633 [MainThread  ] [INFO] Found unique URL #22: https://github.com/tiangolo
+2024-03-18 05:37:11,634 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /url?q=https://github.com/nextcloud&sa=U&ved=2ahUKEwjovtrQwf2EAxWaElkFHd2fBukQFnoECFcQAg&usg=AOvVaw2dk-K5BpzUe-QCVPQ_w1IR
+2024-03-18 05:37:11,634 [MainThread  ] [DEBUG] post filter_search_result_urls() link: https://github.com/nextcloud
+2024-03-18 05:37:11,634 [MainThread  ] [INFO] Found unique URL #23: https://github.com/nextcloud
+2024-03-18 05:37:11,634 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /url?q=https://github.com/chartjs&sa=U&ved=2ahUKEwjovtrQwf2EAxWaElkFHd2fBukQFnoECFUQAg&usg=AOvVaw3XU7vuYfcWBRW0TUA6OCsZ
+2024-03-18 05:37:11,634 [MainThread  ] [DEBUG] post filter_search_result_urls() link: https://github.com/chartjs
+2024-03-18 05:37:11,635 [MainThread  ] [INFO] Found unique URL #24: https://github.com/chartjs
+2024-03-18 05:37:11,635 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /url?q=https://github.com/collections&sa=U&ved=2ahUKEwjovtrQwf2EAxWaElkFHd2fBukQFnoECFYQAg&usg=AOvVaw2alsCl-D2iXVb-Zcx1S7TU
+2024-03-18 05:37:11,635 [MainThread  ] [DEBUG] post filter_search_result_urls() link: https://github.com/collections
+2024-03-18 05:37:11,635 [MainThread  ] [INFO] Found unique URL #25: https://github.com/collections
+2024-03-18 05:37:11,635 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /url?q=https://github.com/jdalton&sa=U&ved=2ahUKEwjovtrQwf2EAxWaElkFHd2fBukQFnoECFIQAg&usg=AOvVaw1GnV7XJDPqNnWmWdRJGIO5
+2024-03-18 05:37:11,636 [MainThread  ] [DEBUG] post filter_search_result_urls() link: https://github.com/jdalton
+2024-03-18 05:37:11,636 [MainThread  ] [INFO] Found unique URL #26: https://github.com/jdalton
+2024-03-18 05:37:11,636 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /url?q=https://github.com/chaynhq&sa=U&ved=2ahUKEwjovtrQwf2EAxWaElkFHd2fBukQFnoECFQQAg&usg=AOvVaw0mHEYx4WeKoiYzTk5FsAgy
+2024-03-18 05:37:11,636 [MainThread  ] [DEBUG] post filter_search_result_urls() link: https://github.com/chaynhq
+2024-03-18 05:37:11,636 [MainThread  ] [INFO] Found unique URL #27: https://github.com/chaynhq
+2024-03-18 05:37:11,637 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /url?q=https://github.com/PHPMailer&sa=U&ved=2ahUKEwjovtrQwf2EAxWaElkFHd2fBukQFnoECFMQAg&usg=AOvVaw1urm6Qggax-Kam0ZZuU31l
+2024-03-18 05:37:11,637 [MainThread  ] [DEBUG] post filter_search_result_urls() link: https://github.com/PHPMailer
+2024-03-18 05:37:11,637 [MainThread  ] [INFO] Found unique URL #28: https://github.com/PHPMailer
+2024-03-18 05:37:11,638 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /url?q=https://github.com/bitwarden&sa=U&ved=2ahUKEwjovtrQwf2EAxWaElkFHd2fBukQFnoECFEQAg&usg=AOvVaw3zwpLthWoL3PHd6RPEkHc4
+2024-03-18 05:37:11,638 [MainThread  ] [DEBUG] post filter_search_result_urls() link: https://github.com/bitwarden
+2024-03-18 05:37:11,639 [MainThread  ] [INFO] Found unique URL #29: https://github.com/bitwarden
+2024-03-18 05:37:11,639 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /url?q=https://github.com/googlechrome&sa=U&ved=2ahUKEwjovtrQwf2EAxWaElkFHd2fBukQFnoECFAQAg&usg=AOvVaw3AmKrLwUlwF5XMdSfCmS12
+2024-03-18 05:37:11,639 [MainThread  ] [DEBUG] post filter_search_result_urls() link: https://github.com/googlechrome
+2024-03-18 05:37:11,640 [MainThread  ] [INFO] Found unique URL #30: https://github.com/googlechrome
+2024-03-18 05:37:11,640 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /url?q=https://github.com/w3c/&sa=U&ved=2ahUKEwjovtrQwf2EAxWaElkFHd2fBukQFnoECE8QAg&usg=AOvVaw0UEbIm4Wpxc-jiZ0QBh2HE
+2024-03-18 05:37:11,640 [MainThread  ] [DEBUG] post filter_search_result_urls() link: https://github.com/w3c/
+2024-03-18 05:37:11,641 [MainThread  ] [INFO] Found unique URL #31: https://github.com/w3c/
+2024-03-18 05:37:11,641 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /url?q=https://github.com/italia/&sa=U&ved=2ahUKEwjovtrQwf2EAxWaElkFHd2fBukQFnoECEoQAg&usg=AOvVaw1qqztIiSRyYo69xXqkolMY
+2024-03-18 05:37:11,641 [MainThread  ] [DEBUG] post filter_search_result_urls() link: https://github.com/italia/
+2024-03-18 05:37:11,641 [MainThread  ] [INFO] Found unique URL #32: https://github.com/italia/
+2024-03-18 05:37:11,641 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /url?q=https://github.com/europeana&sa=U&ved=2ahUKEwjovtrQwf2EAxWaElkFHd2fBukQFnoECEwQAg&usg=AOvVaw0LPsOcSSn4UsDc4LvVEvwY
+2024-03-18 05:37:11,642 [MainThread  ] [DEBUG] post filter_search_result_urls() link: https://github.com/europeana
+2024-03-18 05:37:11,642 [MainThread  ] [INFO] Found unique URL #33: https://github.com/europeana
+2024-03-18 05:37:11,642 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /url?q=https://github.com/chriswhong&sa=U&ved=2ahUKEwjovtrQwf2EAxWaElkFHd2fBukQFnoECEsQAg&usg=AOvVaw0TX1MnlpquK8pg4YBhkYeK
+2024-03-18 05:37:11,642 [MainThread  ] [DEBUG] post filter_search_result_urls() link: https://github.com/chriswhong
+2024-03-18 05:37:11,643 [MainThread  ] [INFO] Found unique URL #34: https://github.com/chriswhong
+2024-03-18 05:37:11,643 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /url?q=https://github.com/Azure&sa=U&ved=2ahUKEwjovtrQwf2EAxWaElkFHd2fBukQFnoECE0QAg&usg=AOvVaw2T0_QGM4jcUcBeHmlpMQS_
+2024-03-18 05:37:11,643 [MainThread  ] [DEBUG] post filter_search_result_urls() link: https://github.com/Azure
+2024-03-18 05:37:11,643 [MainThread  ] [INFO] Found unique URL #35: https://github.com/Azure
+2024-03-18 05:37:11,644 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /url?q=https://github.com/mlabonne&sa=U&ved=2ahUKEwjovtrQwf2EAxWaElkFHd2fBukQFnoECE4QAg&usg=AOvVaw3mlqyDNkn0htDyMaKQFv-r
+2024-03-18 05:37:11,644 [MainThread  ] [DEBUG] post filter_search_result_urls() link: https://github.com/mlabonne
+2024-03-18 05:37:11,644 [MainThread  ] [INFO] Found unique URL #36: https://github.com/mlabonne
+2024-03-18 05:37:11,644 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /url?q=https://github.com/programthink&sa=U&ved=2ahUKEwjovtrQwf2EAxWaElkFHd2fBukQFnoECEkQAg&usg=AOvVaw1JqG-ZcWBYcbtB3mICXJk9
+2024-03-18 05:37:11,645 [MainThread  ] [DEBUG] post filter_search_result_urls() link: https://github.com/programthink
+2024-03-18 05:37:11,645 [MainThread  ] [INFO] Found unique URL #37: https://github.com/programthink
+2024-03-18 05:37:11,645 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /url?q=https://github.com/boundlessgeo&sa=U&ved=2ahUKEwjovtrQwf2EAxWaElkFHd2fBukQFnoECEcQAg&usg=AOvVaw3ZGoPgyQTK9hyFtxm_7XHT
+2024-03-18 05:37:11,645 [MainThread  ] [DEBUG] post filter_search_result_urls() link: https://github.com/boundlessgeo
+2024-03-18 05:37:11,645 [MainThread  ] [INFO] Found unique URL #38: https://github.com/boundlessgeo
+2024-03-18 05:37:11,646 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /url?q=https://github.com/t3rryw1&sa=U&ved=2ahUKEwjovtrQwf2EAxWaElkFHd2fBukQFnoECEYQAg&usg=AOvVaw0zXay1KMhwvAAXTpd2Y09_
+2024-03-18 05:37:11,646 [MainThread  ] [DEBUG] post filter_search_result_urls() link: https://github.com/t3rryw1
+2024-03-18 05:37:11,646 [MainThread  ] [INFO] Found unique URL #39: https://github.com/t3rryw1
+2024-03-18 05:37:11,646 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /url?q=https://shop.github.com/&sa=U&ved=2ahUKEwjovtrQwf2EAxWaElkFHd2fBukQFnoECEgQAg&usg=AOvVaw2tw1jXec-SuIZvF1gBjFxV
+2024-03-18 05:37:11,646 [MainThread  ] [DEBUG] post filter_search_result_urls() link: https://shop.github.com/
+2024-03-18 05:37:11,646 [MainThread  ] [INFO] Found unique URL #40: https://shop.github.com/
+2024-03-18 05:37:11,647 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /url?q=https://github.com/dcmi&sa=U&ved=2ahUKEwjovtrQwf2EAxWaElkFHd2fBukQFnoECEQQAg&usg=AOvVaw2aPk9EMD1yd8aiRrJQZOWp
+2024-03-18 05:37:11,647 [MainThread  ] [DEBUG] post filter_search_result_urls() link: https://github.com/dcmi
+2024-03-18 05:37:11,647 [MainThread  ] [INFO] Found unique URL #41: https://github.com/dcmi
+2024-03-18 05:37:11,647 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /url?q=https://github.com/thatmissedsemicolon&sa=U&ved=2ahUKEwjovtrQwf2EAxWaElkFHd2fBukQFnoECEMQAg&usg=AOvVaw2CFgtBkPVj6l3igqH58oNj
+2024-03-18 05:37:11,647 [MainThread  ] [DEBUG] post filter_search_result_urls() link: https://github.com/thatmissedsemicolon
+2024-03-18 05:37:11,648 [MainThread  ] [INFO] Found unique URL #42: https://github.com/thatmissedsemicolon
+2024-03-18 05:37:11,648 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /url?q=https://github.com/PixelExperience&sa=U&ved=2ahUKEwjovtrQwf2EAxWaElkFHd2fBukQFnoECEUQAg&usg=AOvVaw3s-9h8vhj6vCkAcEgMFhof
+2024-03-18 05:37:11,648 [MainThread  ] [DEBUG] post filter_search_result_urls() link: https://github.com/PixelExperience
+2024-03-18 05:37:11,648 [MainThread  ] [INFO] Found unique URL #43: https://github.com/PixelExperience
+2024-03-18 05:37:11,648 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /url?q=https://cli.github.com/&sa=U&ved=2ahUKEwjovtrQwf2EAxWaElkFHd2fBukQFnoECEIQAg&usg=AOvVaw3oKaDGQt99Tbbc1At5ULNS
+2024-03-18 05:37:11,648 [MainThread  ] [DEBUG] post filter_search_result_urls() link: https://cli.github.com/
+2024-03-18 05:37:11,649 [MainThread  ] [INFO] Found unique URL #44: https://cli.github.com/
+2024-03-18 05:37:11,649 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /url?q=https://github.com/directus&sa=U&ved=2ahUKEwjovtrQwf2EAxWaElkFHd2fBukQFnoECEEQAg&usg=AOvVaw1x4s21QrKLjm2xSw1L-_nn
+2024-03-18 05:37:11,649 [MainThread  ] [DEBUG] post filter_search_result_urls() link: https://github.com/directus
+2024-03-18 05:37:11,649 [MainThread  ] [INFO] Found unique URL #45: https://github.com/directus
+2024-03-18 05:37:11,649 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /url?q=https://github.com/alphagov&sa=U&ved=2ahUKEwjovtrQwf2EAxWaElkFHd2fBukQFnoECD8QAg&usg=AOvVaw32hQF3pAD_9oyDuLAG-oyS
+2024-03-18 05:37:11,649 [MainThread  ] [DEBUG] post filter_search_result_urls() link: https://github.com/alphagov
+2024-03-18 05:37:11,650 [MainThread  ] [INFO] Found unique URL #46: https://github.com/alphagov
+2024-03-18 05:37:11,650 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /url?q=https://github.com/jc21&sa=U&ved=2ahUKEwjovtrQwf2EAxWaElkFHd2fBukQFnoECEAQAg&usg=AOvVaw2wK0sTlojAlptvTU4FFHL2
+2024-03-18 05:37:11,650 [MainThread  ] [DEBUG] post filter_search_result_urls() link: https://github.com/jc21
+2024-03-18 05:37:11,650 [MainThread  ] [INFO] Found unique URL #47: https://github.com/jc21
+2024-03-18 05:37:11,650 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /url?q=https://resources.github.com/&sa=U&ved=2ahUKEwjovtrQwf2EAxWaElkFHd2fBukQFnoECDsQAg&usg=AOvVaw2njIrWQJHoBYb3I2mGlvAk
+2024-03-18 05:37:11,651 [MainThread  ] [DEBUG] post filter_search_result_urls() link: https://resources.github.com/
+2024-03-18 05:37:11,651 [MainThread  ] [INFO] Found unique URL #48: https://resources.github.com/
+2024-03-18 05:37:11,651 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /url?q=https://education.github.com/&sa=U&ved=2ahUKEwjovtrQwf2EAxWaElkFHd2fBukQFnoECDwQAg&usg=AOvVaw3HW_juG4pUUB3hNUPsqcpM
+2024-03-18 05:37:11,651 [MainThread  ] [DEBUG] post filter_search_result_urls() link: https://education.github.com/
+2024-03-18 05:37:11,652 [MainThread  ] [INFO] Found unique URL #49: https://education.github.com/
+2024-03-18 05:37:11,652 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /url?q=https://github.com/getlantern&sa=U&ved=2ahUKEwjovtrQwf2EAxWaElkFHd2fBukQFnoECDoQAg&usg=AOvVaw3sxuuC1pe_UpWENfpb-jFw
+2024-03-18 05:37:11,652 [MainThread  ] [DEBUG] post filter_search_result_urls() link: https://github.com/getlantern
+2024-03-18 05:37:11,652 [MainThread  ] [INFO] Found unique URL #50: https://github.com/getlantern
+2024-03-18 05:37:11,652 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /url?q=https://github.com/pytorch&sa=U&ved=2ahUKEwjovtrQwf2EAxWaElkFHd2fBukQFnoECD4QAg&usg=AOvVaw3VlzWzG_lNm4H-VFhvPWov
+2024-03-18 05:37:11,652 [MainThread  ] [DEBUG] post filter_search_result_urls() link: https://github.com/pytorch
+2024-03-18 05:37:11,653 [MainThread  ] [INFO] Found unique URL #51: https://github.com/pytorch
+2024-03-18 05:37:11,653 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /url?q=https://github.com/kalisio&sa=U&ved=2ahUKEwjovtrQwf2EAxWaElkFHd2fBukQFnoECD0QAg&usg=AOvVaw1QkFLu_JHXyRPcWn9gSw6M
+2024-03-18 05:37:11,653 [MainThread  ] [DEBUG] post filter_search_result_urls() link: https://github.com/kalisio
+2024-03-18 05:37:11,653 [MainThread  ] [INFO] Found unique URL #52: https://github.com/kalisio
+2024-03-18 05:37:11,653 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /url?q=https://github.com/covid19india&sa=U&ved=2ahUKEwjovtrQwf2EAxWaElkFHd2fBukQFnoECDkQAg&usg=AOvVaw2JH3T_pDWFlRJ0FXWeJfXw
+2024-03-18 05:37:11,654 [MainThread  ] [DEBUG] post filter_search_result_urls() link: https://github.com/covid19india
+2024-03-18 05:37:11,654 [MainThread  ] [INFO] Found unique URL #53: https://github.com/covid19india
+2024-03-18 05:37:11,654 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /url?q=https://github.com/grpc&sa=U&ved=2ahUKEwjovtrQwf2EAxWaElkFHd2fBukQFnoECDgQAg&usg=AOvVaw3J1s33WIeCabjfgAxpKqie
+2024-03-18 05:37:11,654 [MainThread  ] [DEBUG] post filter_search_result_urls() link: https://github.com/grpc
+2024-03-18 05:37:11,655 [MainThread  ] [INFO] Found unique URL #54: https://github.com/grpc
+2024-03-18 05:37:11,655 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /url?q=https://github.com/osano&sa=U&ved=2ahUKEwjovtrQwf2EAxWaElkFHd2fBukQFnoECDcQAg&usg=AOvVaw0dJn9Tv_BJjb_24zP2srPO
+2024-03-18 05:37:11,655 [MainThread  ] [DEBUG] post filter_search_result_urls() link: https://github.com/osano
+2024-03-18 05:37:11,655 [MainThread  ] [INFO] Found unique URL #55: https://github.com/osano
+2024-03-18 05:37:11,655 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /url?q=https://gist.github.com/&sa=U&ved=2ahUKEwjovtrQwf2EAxWaElkFHd2fBukQFnoECDYQAg&usg=AOvVaw1CIm8CK0tvHA40W51gSMCo
+2024-03-18 05:37:11,656 [MainThread  ] [DEBUG] post filter_search_result_urls() link: https://gist.github.com/
+2024-03-18 05:37:11,656 [MainThread  ] [INFO] Found unique URL #56: https://gist.github.com/
+2024-03-18 05:37:11,656 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /url?q=https://github.com/turbo87/&sa=U&ved=2ahUKEwjovtrQwf2EAxWaElkFHd2fBukQFnoECDIQAg&usg=AOvVaw3Oxb7vtI7RhiQfowr7zyvR
+2024-03-18 05:37:11,656 [MainThread  ] [DEBUG] post filter_search_result_urls() link: https://github.com/turbo87/
+2024-03-18 05:37:11,657 [MainThread  ] [INFO] Found unique URL #57: https://github.com/turbo87/
+2024-03-18 05:37:11,657 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /url?q=https://github.com/inveniosoftware&sa=U&ved=2ahUKEwjovtrQwf2EAxWaElkFHd2fBukQFnoECDEQAg&usg=AOvVaw2yxxJJ4fsVYh1vb6GEKW8-
+2024-03-18 05:37:11,657 [MainThread  ] [DEBUG] post filter_search_result_urls() link: https://github.com/inveniosoftware
+2024-03-18 05:37:11,657 [MainThread  ] [INFO] Found unique URL #58: https://github.com/inveniosoftware
+2024-03-18 05:37:11,657 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /url?q=https://github.com/AUTOMATIC1111&sa=U&ved=2ahUKEwjovtrQwf2EAxWaElkFHd2fBukQFnoECDUQAg&usg=AOvVaw0PaFqu6a1Bt0xT7TfeyiNP
+2024-03-18 05:37:11,658 [MainThread  ] [DEBUG] post filter_search_result_urls() link: https://github.com/AUTOMATIC1111
+2024-03-18 05:37:11,658 [MainThread  ] [INFO] Found unique URL #59: https://github.com/AUTOMATIC1111
+2024-03-18 05:37:11,658 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /url?q=https://github.com/datacommonsorg&sa=U&ved=2ahUKEwjovtrQwf2EAxWaElkFHd2fBukQFnoECDMQAg&usg=AOvVaw02j-49xjGtk-TKo6ZKymHN
+2024-03-18 05:37:11,658 [MainThread  ] [DEBUG] post filter_search_result_urls() link: https://github.com/datacommonsorg
+2024-03-18 05:37:11,658 [MainThread  ] [INFO] Found unique URL #60: https://github.com/datacommonsorg
+2024-03-18 05:37:11,659 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /url?q=https://github.com/postmanlabs&sa=U&ved=2ahUKEwjovtrQwf2EAxWaElkFHd2fBukQFnoECDQQAg&usg=AOvVaw3EwoDbxAFdquS5mSZaCv7L
+2024-03-18 05:37:11,659 [MainThread  ] [DEBUG] post filter_search_result_urls() link: https://github.com/postmanlabs
+2024-03-18 05:37:11,659 [MainThread  ] [INFO] Found unique URL #61: https://github.com/postmanlabs
+2024-03-18 05:37:11,659 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /url?q=https://github.com/rwaldron&sa=U&ved=2ahUKEwjovtrQwf2EAxWaElkFHd2fBukQFnoECDAQAg&usg=AOvVaw1sQsSENzH4uSQJGW4Dzjed
+2024-03-18 05:37:11,660 [MainThread  ] [DEBUG] post filter_search_result_urls() link: https://github.com/rwaldron
+2024-03-18 05:37:11,660 [MainThread  ] [INFO] Found unique URL #62: https://github.com/rwaldron
+2024-03-18 05:37:11,660 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /url?q=https://github.com/odoo&sa=U&ved=2ahUKEwjovtrQwf2EAxWaElkFHd2fBukQFnoECC8QAg&usg=AOvVaw3gu-MAZFevsvnlm5bQoQD_
+2024-03-18 05:37:11,660 [MainThread  ] [DEBUG] post filter_search_result_urls() link: https://github.com/odoo
+2024-03-18 05:37:11,660 [MainThread  ] [INFO] Found unique URL #63: https://github.com/odoo
+2024-03-18 05:37:11,661 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /url?q=https://github.com/tensorflow&sa=U&ved=2ahUKEwjovtrQwf2EAxWaElkFHd2fBukQFnoECC4QAg&usg=AOvVaw0kTDpz0Tu_NKTEJ1eZRB3-
+2024-03-18 05:37:11,661 [MainThread  ] [DEBUG] post filter_search_result_urls() link: https://github.com/tensorflow
+2024-03-18 05:37:11,661 [MainThread  ] [INFO] Found unique URL #64: https://github.com/tensorflow
+2024-03-18 05:37:11,661 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /url?q=https://github.com/dependabot&sa=U&ved=2ahUKEwjovtrQwf2EAxWaElkFHd2fBukQFnoECC0QAg&usg=AOvVaw3iAtWuC41umXpi8ssUlkCl
+2024-03-18 05:37:11,661 [MainThread  ] [DEBUG] post filter_search_result_urls() link: https://github.com/dependabot
+2024-03-18 05:37:11,662 [MainThread  ] [INFO] Found unique URL #65: https://github.com/dependabot
+2024-03-18 05:37:11,662 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /url?q=https://github.com/ncbi&sa=U&ved=2ahUKEwjovtrQwf2EAxWaElkFHd2fBukQFnoECCsQAg&usg=AOvVaw1lnKvKmCRVSDIrSdSc32Za
+2024-03-18 05:37:11,662 [MainThread  ] [DEBUG] post filter_search_result_urls() link: https://github.com/ncbi
+2024-03-18 05:37:11,662 [MainThread  ] [INFO] Found unique URL #66: https://github.com/ncbi
+2024-03-18 05:37:11,662 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /url?q=https://github.com/maptiler&sa=U&ved=2ahUKEwjovtrQwf2EAxWaElkFHd2fBukQFnoECCwQAg&usg=AOvVaw2Z5fylZctIN5ClWlWUm1D9
+2024-03-18 05:37:11,663 [MainThread  ] [DEBUG] post filter_search_result_urls() link: https://github.com/maptiler
+2024-03-18 05:37:11,663 [MainThread  ] [INFO] Found unique URL #67: https://github.com/maptiler
+2024-03-18 05:37:11,663 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /url?q=https://blog.github.com/&sa=U&ved=2ahUKEwjovtrQwf2EAxWaElkFHd2fBukQFnoECCoQAg&usg=AOvVaw0hPH_tRTABp2O92z5u48JK
+2024-03-18 05:37:11,663 [MainThread  ] [DEBUG] post filter_search_result_urls() link: https://blog.github.com/
+2024-03-18 05:37:11,663 [MainThread  ] [INFO] Found unique URL #68: https://blog.github.com/
+2024-03-18 05:37:11,664 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /url?q=https://github.com/nodejs&sa=U&ved=2ahUKEwjovtrQwf2EAxWaElkFHd2fBukQFnoECCkQAg&usg=AOvVaw3656bKeDGtHuxN_oXmzR4V
+2024-03-18 05:37:11,664 [MainThread  ] [DEBUG] post filter_search_result_urls() link: https://github.com/nodejs
+2024-03-18 05:37:11,664 [MainThread  ] [INFO] Found unique URL #69: https://github.com/nodejs
+2024-03-18 05:37:11,664 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /url?q=https://github.com/python&sa=U&ved=2ahUKEwjovtrQwf2EAxWaElkFHd2fBukQFnoECCgQAg&usg=AOvVaw3I5xeBO42JdrkqFsABgtgj
+2024-03-18 05:37:11,664 [MainThread  ] [DEBUG] post filter_search_result_urls() link: https://github.com/python
+2024-03-18 05:37:11,665 [MainThread  ] [INFO] Found unique URL #70: https://github.com/python
+2024-03-18 05:37:11,665 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /url?q=https://github.com/vuejs&sa=U&ved=2ahUKEwjovtrQwf2EAxWaElkFHd2fBukQFnoECCcQAg&usg=AOvVaw0soDAdQmyKu4dhC_chFCbL
+2024-03-18 05:37:11,665 [MainThread  ] [DEBUG] post filter_search_result_urls() link: https://github.com/vuejs
+2024-03-18 05:37:11,665 [MainThread  ] [INFO] Found unique URL #71: https://github.com/vuejs
+2024-03-18 05:37:11,665 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /url?q=https://github.com/mobile&sa=U&ved=2ahUKEwjovtrQwf2EAxWaElkFHd2fBukQFnoECCYQAg&usg=AOvVaw0XTlR4esU3klhsy0WFMOnI
+2024-03-18 05:37:11,665 [MainThread  ] [DEBUG] post filter_search_result_urls() link: https://github.com/mobile
+2024-03-18 05:37:11,666 [MainThread  ] [INFO] Found unique URL #72: https://github.com/mobile
+2024-03-18 05:37:11,666 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /url?q=http://github.com/EpicGames&sa=U&ved=2ahUKEwjovtrQwf2EAxWaElkFHd2fBukQFnoECCEQAg&usg=AOvVaw2TvKgckLm-iCLHatVC1TPk
+2024-03-18 05:37:11,666 [MainThread  ] [DEBUG] post filter_search_result_urls() link: http://github.com/EpicGames
+2024-03-18 05:37:11,666 [MainThread  ] [INFO] Found unique URL #73: http://github.com/EpicGames
+2024-03-18 05:37:11,666 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /url?q=https://github.com/pnpm&sa=U&ved=2ahUKEwjovtrQwf2EAxWaElkFHd2fBukQFnoECB8QAg&usg=AOvVaw2v4Euk8fxrTAhfjzDLa6J0
+2024-03-18 05:37:11,667 [MainThread  ] [DEBUG] post filter_search_result_urls() link: https://github.com/pnpm
+2024-03-18 05:37:11,667 [MainThread  ] [INFO] Found unique URL #74: https://github.com/pnpm
+2024-03-18 05:37:11,667 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /url?q=https://github.com/massgravel&sa=U&ved=2ahUKEwjovtrQwf2EAxWaElkFHd2fBukQFnoECCAQAg&usg=AOvVaw3QEKL8BG40q6O2ucVn7DRP
+2024-03-18 05:37:11,667 [MainThread  ] [DEBUG] post filter_search_result_urls() link: https://github.com/massgravel
+2024-03-18 05:37:11,667 [MainThread  ] [INFO] Found unique URL #75: https://github.com/massgravel
+2024-03-18 05:37:11,667 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /url?q=https://github.com/mourner&sa=U&ved=2ahUKEwjovtrQwf2EAxWaElkFHd2fBukQFnoECCUQAg&usg=AOvVaw2RqCowQEMvMxyHNb590Sef
+2024-03-18 05:37:11,668 [MainThread  ] [DEBUG] post filter_search_result_urls() link: https://github.com/mourner
+2024-03-18 05:37:11,668 [MainThread  ] [INFO] Found unique URL #76: https://github.com/mourner
+2024-03-18 05:37:11,668 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /url?q=https://github.com/jlesage&sa=U&ved=2ahUKEwjovtrQwf2EAxWaElkFHd2fBukQFnoECCIQAg&usg=AOvVaw39FWVpHq5J2qKk4-lUfezB
+2024-03-18 05:37:11,668 [MainThread  ] [DEBUG] post filter_search_result_urls() link: https://github.com/jlesage
+2024-03-18 05:37:11,668 [MainThread  ] [INFO] Found unique URL #77: https://github.com/jlesage
+2024-03-18 05:37:11,669 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /url?q=https://github.com/vercel&sa=U&ved=2ahUKEwjovtrQwf2EAxWaElkFHd2fBukQFnoECCMQAg&usg=AOvVaw2A0XRGbCtgCEmyEbQJtueg
+2024-03-18 05:37:11,669 [MainThread  ] [DEBUG] post filter_search_result_urls() link: https://github.com/vercel
+2024-03-18 05:37:11,669 [MainThread  ] [INFO] Found unique URL #78: https://github.com/vercel
+2024-03-18 05:37:11,669 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /url?q=https://github.com/actions&sa=U&ved=2ahUKEwjovtrQwf2EAxWaElkFHd2fBukQFnoECCQQAg&usg=AOvVaw3OHhaPx52DsSANTEPWR0Nm
+2024-03-18 05:37:11,669 [MainThread  ] [DEBUG] post filter_search_result_urls() link: https://github.com/actions
+2024-03-18 05:37:11,669 [MainThread  ] [INFO] Found unique URL #79: https://github.com/actions
+2024-03-18 05:37:11,670 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /url?q=https://github.com/OpenCageData&sa=U&ved=2ahUKEwjovtrQwf2EAxWaElkFHd2fBukQFnoECB4QAg&usg=AOvVaw1g-RcY8FeHtFGlq-lsMO7c
+2024-03-18 05:37:11,670 [MainThread  ] [DEBUG] post filter_search_result_urls() link: https://github.com/OpenCageData
+2024-03-18 05:37:11,670 [MainThread  ] [INFO] Found unique URL #80: https://github.com/OpenCageData
+2024-03-18 05:37:11,670 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /url?q=https://github.com/opus4&sa=U&ved=2ahUKEwjovtrQwf2EAxWaElkFHd2fBukQFnoECBwQAg&usg=AOvVaw3l8dFifR-YDxZ8_cQ94-7D
+2024-03-18 05:37:11,671 [MainThread  ] [DEBUG] post filter_search_result_urls() link: https://github.com/opus4
+2024-03-18 05:37:11,671 [MainThread  ] [INFO] Found unique URL #81: https://github.com/opus4
+2024-03-18 05:37:11,671 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /url?q=https://github.com/videojs&sa=U&ved=2ahUKEwjovtrQwf2EAxWaElkFHd2fBukQFnoECB0QAg&usg=AOvVaw247_zCDslZG_uowEoI4HjM
+2024-03-18 05:37:11,671 [MainThread  ] [DEBUG] post filter_search_result_urls() link: https://github.com/videojs
+2024-03-18 05:37:11,671 [MainThread  ] [INFO] Found unique URL #82: https://github.com/videojs
+2024-03-18 05:37:11,672 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /url?q=https://github.com/homebrew&sa=U&ved=2ahUKEwjovtrQwf2EAxWaElkFHd2fBukQFnoECBsQAg&usg=AOvVaw1-eiLpfX_mIQddFo5yys2N
+2024-03-18 05:37:11,672 [MainThread  ] [DEBUG] post filter_search_result_urls() link: https://github.com/homebrew
+2024-03-18 05:37:11,672 [MainThread  ] [INFO] Found unique URL #83: https://github.com/homebrew
+2024-03-18 05:37:11,672 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /url?q=https://github.com/dequelabs&sa=U&ved=2ahUKEwjovtrQwf2EAxWaElkFHd2fBukQFnoECBoQAg&usg=AOvVaw19WyoiXbN4ipSpRHBJjgzE
+2024-03-18 05:37:11,672 [MainThread  ] [DEBUG] post filter_search_result_urls() link: https://github.com/dequelabs
+2024-03-18 05:37:11,673 [MainThread  ] [INFO] Found unique URL #84: https://github.com/dequelabs
+2024-03-18 05:37:11,673 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /url?q=https://github.com/googleanalytics/&sa=U&ved=2ahUKEwjovtrQwf2EAxWaElkFHd2fBukQFnoECBkQAg&usg=AOvVaw1JZfVaNiWAKNSCLmONsNLt
+2024-03-18 05:37:11,673 [MainThread  ] [DEBUG] post filter_search_result_urls() link: https://github.com/googleanalytics/
+2024-03-18 05:37:11,673 [MainThread  ] [INFO] Found unique URL #85: https://github.com/googleanalytics/
+2024-03-18 05:37:11,673 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /url?q=https://github.com/minio&sa=U&ved=2ahUKEwjovtrQwf2EAxWaElkFHd2fBukQFnoECBcQAg&usg=AOvVaw2koCY9taN8f2_VMPNTpOMz
+2024-03-18 05:37:11,673 [MainThread  ] [DEBUG] post filter_search_result_urls() link: https://github.com/minio
+2024-03-18 05:37:11,674 [MainThread  ] [INFO] Found unique URL #86: https://github.com/minio
+2024-03-18 05:37:11,674 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /url?q=https://github.com/dcramer&sa=U&ved=2ahUKEwjovtrQwf2EAxWaElkFHd2fBukQFnoECBgQAg&usg=AOvVaw2W69oM06oMd3juD5YnX1Tz
+2024-03-18 05:37:11,674 [MainThread  ] [DEBUG] post filter_search_result_urls() link: https://github.com/dcramer
+2024-03-18 05:37:11,674 [MainThread  ] [INFO] Found unique URL #87: https://github.com/dcramer
+2024-03-18 05:37:11,674 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /url?q=https://github.com/logos&sa=U&ved=2ahUKEwjovtrQwf2EAxWaElkFHd2fBukQFnoECBUQAg&usg=AOvVaw15Uh1pCw93CTew9YcCLo67
+2024-03-18 05:37:11,675 [MainThread  ] [DEBUG] post filter_search_result_urls() link: https://github.com/logos
+2024-03-18 05:37:11,675 [MainThread  ] [INFO] Found unique URL #88: https://github.com/logos
+2024-03-18 05:37:11,675 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /url?q=https://github.com/azu&sa=U&ved=2ahUKEwjovtrQwf2EAxWaElkFHd2fBukQFnoECBYQAg&usg=AOvVaw0ELa9hoeNHqEA_mAltPxre
+2024-03-18 05:37:11,675 [MainThread  ] [DEBUG] post filter_search_result_urls() link: https://github.com/azu
+2024-03-18 05:37:11,676 [MainThread  ] [INFO] Found unique URL #89: https://github.com/azu
+2024-03-18 05:37:11,676 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /url?q=https://github.com/alibaba&sa=U&ved=2ahUKEwjovtrQwf2EAxWaElkFHd2fBukQFnoECBQQAg&usg=AOvVaw1ZAbfuITcpMWtNgqe5EMKd
+2024-03-18 05:37:11,676 [MainThread  ] [DEBUG] post filter_search_result_urls() link: https://github.com/alibaba
+2024-03-18 05:37:11,676 [MainThread  ] [INFO] Found unique URL #90: https://github.com/alibaba
+2024-03-18 05:37:11,676 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /url?q=https://github.com/fullcalendar&sa=U&ved=2ahUKEwjovtrQwf2EAxWaElkFHd2fBukQFnoECBIQAg&usg=AOvVaw3zC2UPtcyLydJVNM3RyraN
+2024-03-18 05:37:11,677 [MainThread  ] [DEBUG] post filter_search_result_urls() link: https://github.com/fullcalendar
+2024-03-18 05:37:11,677 [MainThread  ] [INFO] Found unique URL #91: https://github.com/fullcalendar
+2024-03-18 05:37:11,677 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /url?q=https://github.com/geoapify&sa=U&ved=2ahUKEwjovtrQwf2EAxWaElkFHd2fBukQFnoECBMQAg&usg=AOvVaw3FAWPALuOmN0UTPvNgjszQ
+2024-03-18 05:37:11,677 [MainThread  ] [DEBUG] post filter_search_result_urls() link: https://github.com/geoapify
+2024-03-18 05:37:11,677 [MainThread  ] [INFO] Found unique URL #92: https://github.com/geoapify
+2024-03-18 05:37:11,678 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /url?q=https://github.com/lizongying&sa=U&ved=2ahUKEwjovtrQwf2EAxWaElkFHd2fBukQFnoECBEQAg&usg=AOvVaw2NfNWplbfkV77umVjsip0k
+2024-03-18 05:37:11,678 [MainThread  ] [DEBUG] post filter_search_result_urls() link: https://github.com/lizongying
+2024-03-18 05:37:11,678 [MainThread  ] [INFO] Found unique URL #93: https://github.com/lizongying
+2024-03-18 05:37:11,678 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /url?q=https://github.com/replit&sa=U&ved=2ahUKEwjovtrQwf2EAxWaElkFHd2fBukQFnoECBAQAg&usg=AOvVaw0O-0PDHo7kUZQbJikdMS65
+2024-03-18 05:37:11,678 [MainThread  ] [DEBUG] post filter_search_result_urls() link: https://github.com/replit
+2024-03-18 05:37:11,679 [MainThread  ] [INFO] Found unique URL #94: https://github.com/replit
+2024-03-18 05:37:11,679 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /url?q=https://github.com/npm&sa=U&ved=2ahUKEwjovtrQwf2EAxWaElkFHd2fBukQFnoECAwQAg&usg=AOvVaw1w1gMJhQa8VOqQ7Rxm7Vna
+2024-03-18 05:37:11,679 [MainThread  ] [DEBUG] post filter_search_result_urls() link: https://github.com/npm
+2024-03-18 05:37:11,679 [MainThread  ] [INFO] Found unique URL #95: https://github.com/npm
+2024-03-18 05:37:11,680 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /url?q=https://status.github.com/&sa=U&ved=2ahUKEwjovtrQwf2EAxWaElkFHd2fBukQFnoECA0QAg&usg=AOvVaw01-DBDfjdQfI_sK9-qq0sT
+2024-03-18 05:37:11,680 [MainThread  ] [DEBUG] post filter_search_result_urls() link: https://status.github.com/
+2024-03-18 05:37:11,680 [MainThread  ] [INFO] Found unique URL #96: https://status.github.com/
+2024-03-18 05:37:11,680 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /url?q=https://github.com/MaaAssistantArknights&sa=U&ved=2ahUKEwjovtrQwf2EAxWaElkFHd2fBukQFnoECA8QAg&usg=AOvVaw0NcReHJhJbn4pJqlKL2tbW
+2024-03-18 05:37:11,680 [MainThread  ] [DEBUG] post filter_search_result_urls() link: https://github.com/MaaAssistantArknights
+2024-03-18 05:37:11,680 [MainThread  ] [INFO] Found unique URL #97: https://github.com/MaaAssistantArknights
+2024-03-18 05:37:11,681 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /url?q=https://github.com/discord&sa=U&ved=2ahUKEwjovtrQwf2EAxWaElkFHd2fBukQFnoECA4QAg&usg=AOvVaw2FhPXdcrq0HCy3lYxTZgYF
+2024-03-18 05:37:11,681 [MainThread  ] [DEBUG] post filter_search_result_urls() link: https://github.com/discord
+2024-03-18 05:37:11,681 [MainThread  ] [INFO] Found unique URL #98: https://github.com/discord
+2024-03-18 05:37:11,681 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /url?q=https://github.com/angular&sa=U&ved=2ahUKEwjovtrQwf2EAxWaElkFHd2fBukQFnoECAsQAg&usg=AOvVaw3ZiESjVqO28CiPXTFK27dS
+2024-03-18 05:37:11,681 [MainThread  ] [DEBUG] post filter_search_result_urls() link: https://github.com/angular
+2024-03-18 05:37:11,682 [MainThread  ] [INFO] Found unique URL #99: https://github.com/angular
+2024-03-18 05:37:11,682 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /url?q=https://github.com/openmaptiles&sa=U&ved=2ahUKEwjovtrQwf2EAxWaElkFHd2fBukQFnoECAoQAg&usg=AOvVaw2xYKxfCTZkNAVAAlXe5SEJ
+2024-03-18 05:37:11,682 [MainThread  ] [DEBUG] post filter_search_result_urls() link: https://github.com/openmaptiles
+2024-03-18 05:37:11,683 [MainThread  ] [INFO] Found unique URL #100: https://github.com/openmaptiles
+2024-03-18 05:39:06,346 [MainThread  ] [INFO] Requesting URL: https://www.google.com/
+2024-03-18 05:39:38,982 [MainThread  ] [INFO] Requesting URL: https://www.google.com/
+2024-03-18 05:44:34,696 [MainThread  ] [INFO] Requesting URL: https://www.google.com/
+2024-03-18 05:45:12,554 [MainThread  ] [INFO] Requesting URL: https://www.google.com/
+2024-03-18 06:13:07,778 [MainThread  ] [INFO] Requesting URL: https://www.google.com/
+2024-03-18 06:14:19,566 [MainThread  ] [INFO] Requesting URL: https://www.google.com/
+2024-03-18 06:14:29,424 [MainThread  ] [INFO] Requesting URL: https://www.google.com/
+2024-03-18 06:18:52,189 [MainThread  ] [INFO] Requesting URL: https://www.google.com/
+2024-03-21 00:06:44,098 [MainThread  ] [INFO] Requesting URL: https://www.google.com/
+2024-03-21 00:07:21,070 [MainThread  ] [INFO] Requesting URL: https://www.google.com/
+2024-03-21 00:07:46,031 [MainThread  ] [INFO] Requesting URL: https://www.google.com/
+2024-03-21 00:07:59,857 [MainThread  ] [INFO] Requesting URL: https://www.google.com/
+2024-03-21 00:08:41,124 [MainThread  ] [INFO] Requesting URL: https://www.google.com/
+2024-03-21 00:08:44,890 [MainThread  ] [INFO] Requesting URL: https://www.google.com/
+2024-03-21 00:09:05,402 [MainThread  ] [INFO] Requesting URL: https://www.google.com/
+2024-03-21 00:09:05,763 [MainThread  ] [DEBUG]     status_code: 200
+2024-03-21 00:09:05,765 [MainThread  ] [DEBUG]     headers: {'User-Agent': 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0; .NET CLR 3.5.30729; .NET CLR 3.0.30729; .NET CLR 2.0.50727; Media Center PC 6.0)'}
+2024-03-21 00:09:05,766 [MainThread  ] [DEBUG]     cookies: <RequestsCookieJar[<Cookie 1P_JAR=2024-03-21-04 for .google.com/>, <Cookie AEC=Ae3NU9Nqw8H1TweBw2_goPDAbhCWCy2_LDqb3QvSq-SAvld2nkstbD2q9F0 for .google.com/>, <Cookie NID=512=GDakoWTmVxf_tcJNzhmgp3blqX6eKGKXY6RA3og1oNEZjZENAM_8-WKeGsGlI94ltnXr3ZzVVnsuaLFU42jO9HxQSKCX4lqB19Kg24ECUTmoFgslma2OOx96t5xzwT3pysM0hq4hPsGL394WcnfCs8-A8nTe1BkDS5X9TTHfzjA for .google.com/>]>
+2024-03-21 00:09:05,768 [MainThread  ] [DEBUG]     proxy: 
+2024-03-21 00:09:05,769 [MainThread  ] [DEBUG]     verify_ssl: True
+2024-03-21 00:09:05,773 [MainThread  ] [INFO] Stats: start=0, num=100, total_valid_links_found=0 / max_search_result_urls_to_return=1
+2024-03-21 00:09:05,774 [MainThread  ] [INFO] Requesting URL: https://www.google.com/search?hl=en&lr=lang_en&q=Testing123&num=100&btnG=Google+Search&tbs=0&safe=off&cr=&filter=0
+2024-03-21 00:09:06,718 [MainThread  ] [DEBUG]     status_code: 200
+2024-03-21 00:09:06,721 [MainThread  ] [DEBUG]     headers: {'User-Agent': 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0; .NET CLR 3.5.30729; .NET CLR 3.0.30729; .NET CLR 2.0.50727; Media Center PC 6.0)'}
+2024-03-21 00:09:06,722 [MainThread  ] [DEBUG]     cookies: <RequestsCookieJar[<Cookie 1P_JAR=2024-03-21-04 for .google.com/>, <Cookie NID=512=M_lHvbH49gS_yAb4-vcj7YhaPMFHp5x895iKTAGAK7M-bGYKeKIv9pVJhruINyRQLHmlAxdRLtUwZ2nRH8I0ACJP0ZLhmjChZAHII2cDvBWqMCJSiy93bup_4kUHACZRTSKYje5moNS8duNflEPoUGWulyxhOyJs0WC-toOV_sw for .google.com/>]>
+2024-03-21 00:09:06,723 [MainThread  ] [DEBUG]     proxy: 
+2024-03-21 00:09:06,724 [MainThread  ] [DEBUG]     verify_ssl: True
+2024-03-21 00:09:06,790 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /?num=100&lr=lang_en&safe=off&sa=G&sca_esv=c27c31a5ed104b1d&hl=en&output=search&tbs=lr:lang_1en&ved=0ahUKEwjv7aHyvYSFAxXvEFkFHYtgCu8QPAgC
+2024-03-21 00:09:06,790 [MainThread  ] [DEBUG] Excluding URL because it does not contain a urllib.parse.urlparse netloc value: /?num=100&lr=lang_en&safe=off&sa=G&sca_esv=c27c31a5ed104b1d&hl=en&output=search&tbs=lr:lang_1en&ved=0ahUKEwjv7aHyvYSFAxXvEFkFHYtgCu8QPAgC
+2024-03-21 00:09:06,791 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2024-03-21 00:09:06,791 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /search?q=Testing123&num=100&lr=lang_en&safe=off&sca_esv=c27c31a5ed104b1d&hl=en&tbs=lr:lang_1en&tbm=isch&source=lnms&sa=X&ved=0ahUKEwjv7aHyvYSFAxXvEFkFHYtgCu8Q_AUIBSgB
+2024-03-21 00:09:06,791 [MainThread  ] [DEBUG] Excluding URL because it does not contain a urllib.parse.urlparse netloc value: /search?q=Testing123&num=100&lr=lang_en&safe=off&sca_esv=c27c31a5ed104b1d&hl=en&tbs=lr:lang_1en&tbm=isch&source=lnms&sa=X&ved=0ahUKEwjv7aHyvYSFAxXvEFkFHYtgCu8Q_AUIBSgB
+2024-03-21 00:09:06,792 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2024-03-21 00:09:06,792 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /search?q=Testing123&num=100&lr=lang_en&safe=off&sca_esv=c27c31a5ed104b1d&hl=en&tbs=lr:lang_1en&tbm=vid&source=lnms&sa=X&ved=0ahUKEwjv7aHyvYSFAxXvEFkFHYtgCu8Q_AUIBigC
+2024-03-21 00:09:06,792 [MainThread  ] [DEBUG] Excluding URL because it does not contain a urllib.parse.urlparse netloc value: /search?q=Testing123&num=100&lr=lang_en&safe=off&sca_esv=c27c31a5ed104b1d&hl=en&tbs=lr:lang_1en&tbm=vid&source=lnms&sa=X&ved=0ahUKEwjv7aHyvYSFAxXvEFkFHYtgCu8Q_AUIBigC
+2024-03-21 00:09:06,792 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2024-03-21 00:09:06,793 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /search?q=Testing123&num=100&lr=lang_en&safe=off&sca_esv=c27c31a5ed104b1d&hl=en&tbs=lr:lang_1en&tbm=nws&source=lnms&sa=X&ved=0ahUKEwjv7aHyvYSFAxXvEFkFHYtgCu8Q_AUIBygD
+2024-03-21 00:09:06,793 [MainThread  ] [DEBUG] Excluding URL because it does not contain a urllib.parse.urlparse netloc value: /search?q=Testing123&num=100&lr=lang_en&safe=off&sca_esv=c27c31a5ed104b1d&hl=en&tbs=lr:lang_1en&tbm=nws&source=lnms&sa=X&ved=0ahUKEwjv7aHyvYSFAxXvEFkFHYtgCu8Q_AUIBygD
+2024-03-21 00:09:06,793 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2024-03-21 00:09:06,794 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /url?esrc=s&frm=1&q=&rct=j&sa=U&url=https://testing123.education.mn.gov/&ved=2ahUKEwjv7aHyvYSFAxXvEFkFHYtgCu8QFnoECFoQAg&usg=AOvVaw1SxG2Y6NVcTTsp1GMOYJqi
+2024-03-21 00:09:06,794 [MainThread  ] [DEBUG] post filter_search_result_urls() link: https://testing123.education.mn.gov/
+2024-03-21 00:09:06,794 [MainThread  ] [INFO] Found unique URL #1: https://testing123.education.mn.gov/
+2024-03-21 00:09:57,602 [MainThread  ] [INFO] Requesting URL: https://www.google.com/
+2024-03-21 00:09:58,058 [MainThread  ] [DEBUG]     status_code: 200
+2024-03-21 00:09:58,060 [MainThread  ] [DEBUG]     headers: {'User-Agent': 'Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US; rv:1.9.2.6) Gecko/20100625 Firefox/3.6.6 (.NET CLR 3.5.30729)'}
+2024-03-21 00:09:58,062 [MainThread  ] [DEBUG]     cookies: <RequestsCookieJar[<Cookie 1P_JAR=2024-03-21-04 for .google.com/>, <Cookie AEC=Ae3NU9PFrDhIWxJgVFQRLNEXA3mq9v9H3H4bSjUWr5NLlQWYifwjlg2eMQ for .google.com/>, <Cookie NID=512=HY8wpUUYzEHh8jPWHMK7F7pDNjwYYgMymaaAsPAqZMahs7-xWmJVNy1ZvoMmOiKPv74A_WCHAAAECZ9naGpQkF_CePZZIfYPvne7_NgiCvi4c8WklSRJhU8Btnn80mQ-tUpHq6UkOjZqwQBc2E8w08D5ByPWF7_Y7wtMo8nHYUI for .google.com/>]>
+2024-03-21 00:09:58,063 [MainThread  ] [DEBUG]     proxy: 
+2024-03-21 00:09:58,065 [MainThread  ] [DEBUG]     verify_ssl: True
+2024-03-21 00:09:58,068 [MainThread  ] [INFO] Stats: start=0, num=100, total_valid_links_found=0 / max_search_result_urls_to_return=1
+2024-03-21 00:09:58,069 [MainThread  ] [INFO] Requesting URL: https://www.google.com/search?hl=en&lr=lang_en&q=Hi+this+is+a+test&num=100&btnG=Google+Search&tbs=0&safe=off&cr=&filter=0
+2024-03-21 00:09:59,130 [MainThread  ] [DEBUG]     status_code: 200
+2024-03-21 00:09:59,132 [MainThread  ] [DEBUG]     headers: {'User-Agent': 'Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US; rv:1.9.2.6) Gecko/20100625 Firefox/3.6.6 (.NET CLR 3.5.30729)'}
+2024-03-21 00:09:59,134 [MainThread  ] [DEBUG]     cookies: <RequestsCookieJar[<Cookie 1P_JAR=2024-03-21-04 for .google.com/>, <Cookie NID=512=awHdVdnttPGm-Qytt71fGRaP30FqJ2c-BJWYBS0pXiFVIkbAV6EzleSwxaFAmm_Ph6gJJ8aHlQSb4d7HSHhIyOytUaLEreAICzAfi5kMtTZMGi4PH__vlb3kOPp138ZSyvI4p9Vrg8jAAyD5xPUUy3WSNl7UDsploKTisrTpoOk for .google.com/>]>
+2024-03-21 00:09:59,135 [MainThread  ] [DEBUG]     proxy: 
+2024-03-21 00:09:59,136 [MainThread  ] [DEBUG]     verify_ssl: True
+2024-03-21 00:09:59,198 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /?sa=X&ved=0ahUKEwjTppiLvoSFAxUSFlkFHe0MBCoQOwgC
+2024-03-21 00:09:59,198 [MainThread  ] [DEBUG] Excluding URL because it does not contain a urllib.parse.urlparse netloc value: /?sa=X&ved=0ahUKEwjTppiLvoSFAxUSFlkFHe0MBCoQOwgC
+2024-03-21 00:09:59,198 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2024-03-21 00:09:59,199 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /search?q=Hi+this+is+a+test&num=100&lr=lang_en&safe=off&sa=G&sca_esv=c27c31a5ed104b1d&hl=en&tbs=lr:lang_1en&gbv=1&sei=FrP7ZdPDDpKs5NoP7ZmQ0AI
+2024-03-21 00:09:59,199 [MainThread  ] [DEBUG] Excluding URL because it does not contain a urllib.parse.urlparse netloc value: /search?q=Hi+this+is+a+test&num=100&lr=lang_en&safe=off&sa=G&sca_esv=c27c31a5ed104b1d&hl=en&tbs=lr:lang_1en&gbv=1&sei=FrP7ZdPDDpKs5NoP7ZmQ0AI
+2024-03-21 00:09:59,199 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2024-03-21 00:09:59,200 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /search?q=Hi+this+is+a+test&num=100&lr=lang_en&safe=off&sca_esv=c27c31a5ed104b1d&hl=en&tbs=lr:lang_1en&tbm=isch&source=lnms&sa=X&ved=0ahUKEwjTppiLvoSFAxUSFlkFHe0MBCoQ_AUIBigB
+2024-03-21 00:09:59,200 [MainThread  ] [DEBUG] Excluding URL because it does not contain a urllib.parse.urlparse netloc value: /search?q=Hi+this+is+a+test&num=100&lr=lang_en&safe=off&sca_esv=c27c31a5ed104b1d&hl=en&tbs=lr:lang_1en&tbm=isch&source=lnms&sa=X&ved=0ahUKEwjTppiLvoSFAxUSFlkFHe0MBCoQ_AUIBigB
+2024-03-21 00:09:59,200 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2024-03-21 00:09:59,201 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /search?q=Hi+this+is+a+test&num=100&lr=lang_en&safe=off&sca_esv=c27c31a5ed104b1d&hl=en&tbs=lr:lang_1en&tbm=vid&source=lnms&sa=X&ved=0ahUKEwjTppiLvoSFAxUSFlkFHe0MBCoQ_AUIBygC
+2024-03-21 00:09:59,201 [MainThread  ] [DEBUG] Excluding URL because it does not contain a urllib.parse.urlparse netloc value: /search?q=Hi+this+is+a+test&num=100&lr=lang_en&safe=off&sca_esv=c27c31a5ed104b1d&hl=en&tbs=lr:lang_1en&tbm=vid&source=lnms&sa=X&ved=0ahUKEwjTppiLvoSFAxUSFlkFHe0MBCoQ_AUIBygC
+2024-03-21 00:09:59,201 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2024-03-21 00:09:59,202 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /url?q=https://maps.google.com/maps%3Fhl%3Den%26lr%3Dlang_en%26q%3DHi%2Bthis%2Bis%2Ba%2Btest%26num%3D100%26safe%3Doff%26cr%3D%26filter%3D0%26um%3D1%26ie%3DUTF-8%26ved%3D1t:200713%26ictx%3D111&opi=89978449&sa=U&ved=0ahUKEwjTppiLvoSFAxUSFlkFHe0MBCoQiaAMCAgoAw&usg=AOvVaw1wWlQeEFqy8uSzKMFGdHPp
+2024-03-21 00:09:59,202 [MainThread  ] [DEBUG] Excluding URL because it contains "google": https://maps.google.com/maps?hl=en&lr=lang_en&q=Hi+this+is+a+test&num=100&safe=off&cr=&filter=0&um=1&ie=UTF-8&ved=1t:200713&ictx=111
+2024-03-21 00:09:59,202 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2024-03-21 00:09:59,202 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /search?q=Hi+this+is+a+test&num=100&lr=lang_en&safe=off&sca_esv=c27c31a5ed104b1d&hl=en&tbs=lr:lang_1en&tbm=nws&source=lnms&sa=X&ved=0ahUKEwjTppiLvoSFAxUSFlkFHe0MBCoQ_AUICSgE
+2024-03-21 00:09:59,203 [MainThread  ] [DEBUG] Excluding URL because it does not contain a urllib.parse.urlparse netloc value: /search?q=Hi+this+is+a+test&num=100&lr=lang_en&safe=off&sca_esv=c27c31a5ed104b1d&hl=en&tbs=lr:lang_1en&tbm=nws&source=lnms&sa=X&ved=0ahUKEwjTppiLvoSFAxUSFlkFHe0MBCoQ_AUICSgE
+2024-03-21 00:09:59,203 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2024-03-21 00:09:59,203 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /url?q=/search%3Fq%3DHi%2Bthis%2Bis%2Ba%2Btest%26num%3D100%26lr%3Dlang_en%26safe%3Doff%26sca_esv%3Dc27c31a5ed104b1d%26hl%3Den%26tbs%3Dlr:lang_1en%26tbm%3Dshop%26source%3Dlnms%26ved%3D1t:200713%26ictx%3D111&opi=89978449&sa=U&ved=0ahUKEwjTppiLvoSFAxUSFlkFHe0MBCoQiaAMCAooBQ&usg=AOvVaw14869-pZHW9w8cns7pnPYB
+2024-03-21 00:09:59,204 [MainThread  ] [DEBUG] Excluding URL because it does not contain a urllib.parse.urlparse netloc value: /search?q=Hi+this+is+a+test&num=100&lr=lang_en&safe=off&sca_esv=c27c31a5ed104b1d&hl=en&tbs=lr:lang_1en&tbm=shop&source=lnms&ved=1t:200713&ictx=111
+2024-03-21 00:09:59,204 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2024-03-21 00:09:59,204 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /search?q=Hi+this+is+a+test&num=100&lr=lang_en&safe=off&sca_esv=c27c31a5ed104b1d&hl=en&tbs=lr:lang_1en&tbm=bks&source=lnms&sa=X&ved=0ahUKEwjTppiLvoSFAxUSFlkFHe0MBCoQ_AUICygG
+2024-03-21 00:09:59,205 [MainThread  ] [DEBUG] Excluding URL because it does not contain a urllib.parse.urlparse netloc value: /search?q=Hi+this+is+a+test&num=100&lr=lang_en&safe=off&sca_esv=c27c31a5ed104b1d&hl=en&tbs=lr:lang_1en&tbm=bks&source=lnms&sa=X&ved=0ahUKEwjTppiLvoSFAxUSFlkFHe0MBCoQ_AUICygG
+2024-03-21 00:09:59,205 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2024-03-21 00:09:59,205 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /advanced_search
+2024-03-21 00:09:59,205 [MainThread  ] [DEBUG] Excluding URL because it does not contain a urllib.parse.urlparse netloc value: /advanced_search
+2024-03-21 00:09:59,205 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2024-03-21 00:09:59,206 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /search?q=Hi+this+is+a+test&num=100&lr=lang_en&safe=off&sca_esv=c27c31a5ed104b1d&hl=en&tbs=lr:lang_1en,dur:s&source=lnt&tbm=vid&sa=X&ved=0ahUKEwjTppiLvoSFAxUSFlkFHe0MBCoQpwUIDQ
+2024-03-21 00:09:59,206 [MainThread  ] [DEBUG] Excluding URL because it does not contain a urllib.parse.urlparse netloc value: /search?q=Hi+this+is+a+test&num=100&lr=lang_en&safe=off&sca_esv=c27c31a5ed104b1d&hl=en&tbs=lr:lang_1en,dur:s&source=lnt&tbm=vid&sa=X&ved=0ahUKEwjTppiLvoSFAxUSFlkFHe0MBCoQpwUIDQ
+2024-03-21 00:09:59,206 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2024-03-21 00:09:59,206 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /search?q=Hi+this+is+a+test&num=100&lr=lang_en&safe=off&sca_esv=c27c31a5ed104b1d&hl=en&tbs=lr:lang_1en,dur:m&source=lnt&tbm=vid&sa=X&ved=0ahUKEwjTppiLvoSFAxUSFlkFHe0MBCoQpwUIDg
+2024-03-21 00:09:59,206 [MainThread  ] [DEBUG] Excluding URL because it does not contain a urllib.parse.urlparse netloc value: /search?q=Hi+this+is+a+test&num=100&lr=lang_en&safe=off&sca_esv=c27c31a5ed104b1d&hl=en&tbs=lr:lang_1en,dur:m&source=lnt&tbm=vid&sa=X&ved=0ahUKEwjTppiLvoSFAxUSFlkFHe0MBCoQpwUIDg
+2024-03-21 00:09:59,207 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2024-03-21 00:09:59,207 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /search?q=Hi+this+is+a+test&num=100&lr=lang_en&safe=off&sca_esv=c27c31a5ed104b1d&hl=en&tbs=lr:lang_1en,dur:l&source=lnt&tbm=vid&sa=X&ved=0ahUKEwjTppiLvoSFAxUSFlkFHe0MBCoQpwUIDw
+2024-03-21 00:09:59,207 [MainThread  ] [DEBUG] Excluding URL because it does not contain a urllib.parse.urlparse netloc value: /search?q=Hi+this+is+a+test&num=100&lr=lang_en&safe=off&sca_esv=c27c31a5ed104b1d&hl=en&tbs=lr:lang_1en,dur:l&source=lnt&tbm=vid&sa=X&ved=0ahUKEwjTppiLvoSFAxUSFlkFHe0MBCoQpwUIDw
+2024-03-21 00:09:59,207 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2024-03-21 00:09:59,208 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /search?q=Hi+this+is+a+test&num=100&safe=off&sca_esv=c27c31a5ed104b1d&hl=en&tbas=0&source=lnt&sa=X&ved=0ahUKEwjTppiLvoSFAxUSFlkFHe0MBCoQpwUIEA
+2024-03-21 00:09:59,208 [MainThread  ] [DEBUG] Excluding URL because it does not contain a urllib.parse.urlparse netloc value: /search?q=Hi+this+is+a+test&num=100&safe=off&sca_esv=c27c31a5ed104b1d&hl=en&tbas=0&source=lnt&sa=X&ved=0ahUKEwjTppiLvoSFAxUSFlkFHe0MBCoQpwUIEA
+2024-03-21 00:09:59,208 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2024-03-21 00:09:59,208 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /search?q=Hi+this+is+a+test&num=100&lr=lang_en&safe=off&sca_esv=c27c31a5ed104b1d&hl=en&tbs=lr:lang_1en,qdr:h&source=lnt&sa=X&ved=0ahUKEwjTppiLvoSFAxUSFlkFHe0MBCoQpwUIEw
+2024-03-21 00:09:59,208 [MainThread  ] [DEBUG] Excluding URL because it does not contain a urllib.parse.urlparse netloc value: /search?q=Hi+this+is+a+test&num=100&lr=lang_en&safe=off&sca_esv=c27c31a5ed104b1d&hl=en&tbs=lr:lang_1en,qdr:h&source=lnt&sa=X&ved=0ahUKEwjTppiLvoSFAxUSFlkFHe0MBCoQpwUIEw
+2024-03-21 00:09:59,209 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2024-03-21 00:09:59,209 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /search?q=Hi+this+is+a+test&num=100&lr=lang_en&safe=off&sca_esv=c27c31a5ed104b1d&hl=en&tbs=lr:lang_1en,qdr:d&source=lnt&sa=X&ved=0ahUKEwjTppiLvoSFAxUSFlkFHe0MBCoQpwUIFA
+2024-03-21 00:09:59,209 [MainThread  ] [DEBUG] Excluding URL because it does not contain a urllib.parse.urlparse netloc value: /search?q=Hi+this+is+a+test&num=100&lr=lang_en&safe=off&sca_esv=c27c31a5ed104b1d&hl=en&tbs=lr:lang_1en,qdr:d&source=lnt&sa=X&ved=0ahUKEwjTppiLvoSFAxUSFlkFHe0MBCoQpwUIFA
+2024-03-21 00:09:59,209 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2024-03-21 00:09:59,210 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /search?q=Hi+this+is+a+test&num=100&lr=lang_en&safe=off&sca_esv=c27c31a5ed104b1d&hl=en&tbs=lr:lang_1en,qdr:w&source=lnt&sa=X&ved=0ahUKEwjTppiLvoSFAxUSFlkFHe0MBCoQpwUIFQ
+2024-03-21 00:09:59,210 [MainThread  ] [DEBUG] Excluding URL because it does not contain a urllib.parse.urlparse netloc value: /search?q=Hi+this+is+a+test&num=100&lr=lang_en&safe=off&sca_esv=c27c31a5ed104b1d&hl=en&tbs=lr:lang_1en,qdr:w&source=lnt&sa=X&ved=0ahUKEwjTppiLvoSFAxUSFlkFHe0MBCoQpwUIFQ
+2024-03-21 00:09:59,210 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2024-03-21 00:09:59,211 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /search?q=Hi+this+is+a+test&num=100&lr=lang_en&safe=off&sca_esv=c27c31a5ed104b1d&hl=en&tbs=lr:lang_1en,qdr:m&source=lnt&sa=X&ved=0ahUKEwjTppiLvoSFAxUSFlkFHe0MBCoQpwUIFg
+2024-03-21 00:09:59,211 [MainThread  ] [DEBUG] Excluding URL because it does not contain a urllib.parse.urlparse netloc value: /search?q=Hi+this+is+a+test&num=100&lr=lang_en&safe=off&sca_esv=c27c31a5ed104b1d&hl=en&tbs=lr:lang_1en,qdr:m&source=lnt&sa=X&ved=0ahUKEwjTppiLvoSFAxUSFlkFHe0MBCoQpwUIFg
+2024-03-21 00:09:59,211 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2024-03-21 00:09:59,211 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /search?q=Hi+this+is+a+test&num=100&lr=lang_en&safe=off&sca_esv=c27c31a5ed104b1d&hl=en&tbs=lr:lang_1en,qdr:y&source=lnt&sa=X&ved=0ahUKEwjTppiLvoSFAxUSFlkFHe0MBCoQpwUIFw
+2024-03-21 00:09:59,211 [MainThread  ] [DEBUG] Excluding URL because it does not contain a urllib.parse.urlparse netloc value: /search?q=Hi+this+is+a+test&num=100&lr=lang_en&safe=off&sca_esv=c27c31a5ed104b1d&hl=en&tbs=lr:lang_1en,qdr:y&source=lnt&sa=X&ved=0ahUKEwjTppiLvoSFAxUSFlkFHe0MBCoQpwUIFw
+2024-03-21 00:09:59,212 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2024-03-21 00:09:59,212 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /search?q=Hi+this+is+a+test&num=100&safe=off&sca_esv=c27c31a5ed104b1d&hl=en&tbs=li:1&source=lnt&sa=X&ved=0ahUKEwjTppiLvoSFAxUSFlkFHe0MBCoQpwUIGQ
+2024-03-21 00:09:59,212 [MainThread  ] [DEBUG] Excluding URL because it does not contain a urllib.parse.urlparse netloc value: /search?q=Hi+this+is+a+test&num=100&safe=off&sca_esv=c27c31a5ed104b1d&hl=en&tbs=li:1&source=lnt&sa=X&ved=0ahUKEwjTppiLvoSFAxUSFlkFHe0MBCoQpwUIGQ
+2024-03-21 00:09:59,212 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2024-03-21 00:09:59,213 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: https://www.google.com/search?num=100&lr=lang_en&safe=off&sca_esv=c27c31a5ed104b1d&hl=en&tbs=lr:lang_1en&ei=FrP7ZdPDDpKs5NoP7ZmQ0AI&q=Hi+this+is+a+test&tbm=isch&sa=X&ved=2ahUKEwjTppiLvoSFAxUSFlkFHe0MBCoQsAR6BAgBEAE
+2024-03-21 00:09:59,213 [MainThread  ] [DEBUG] Excluding URL because it contains "google": https://www.google.com/search?num=100&lr=lang_en&safe=off&sca_esv=c27c31a5ed104b1d&hl=en&tbs=lr:lang_1en&ei=FrP7ZdPDDpKs5NoP7ZmQ0AI&q=Hi+this+is+a+test&tbm=isch&sa=X&ved=2ahUKEwjTppiLvoSFAxUSFlkFHe0MBCoQsAR6BAgBEAE
+2024-03-21 00:09:59,213 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2024-03-21 00:09:59,213 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: https://www.google.com/search?num=100&lr=lang_en&safe=off&sca_esv=c27c31a5ed104b1d&hl=en&tbs=lr:lang_1en&ei=FrP7ZdPDDpKs5NoP7ZmQ0AI&q=Hi+this+is+a+test&tbm=isch&sa=X&ved=2ahUKEwjTppiLvoSFAxUSFlkFHe0MBCoQ7Al6BAgBEAI
+2024-03-21 00:09:59,213 [MainThread  ] [DEBUG] Excluding URL because it contains "google": https://www.google.com/search?num=100&lr=lang_en&safe=off&sca_esv=c27c31a5ed104b1d&hl=en&tbs=lr:lang_1en&ei=FrP7ZdPDDpKs5NoP7ZmQ0AI&q=Hi+this+is+a+test&tbm=isch&sa=X&ved=2ahUKEwjTppiLvoSFAxUSFlkFHe0MBCoQ7Al6BAgBEAI
+2024-03-21 00:09:59,214 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2024-03-21 00:09:59,214 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: https://www.google.com/imgres?imgurl=https://static1.squarespace.com/static/6063a1593ff42c177aad2f5a/t/6063a6bc92145a7720ca4fb4/1696959602202/&imgrefurl=https://www.hitestlabs.com/&h=1000&w=1000&tbnid=fT_-DZ6NgImcNM&q=Hi+this+is+a+test&tbnh=149&tbnw=149&usg=AI4_-kSb-HFkDkSue96361SbNJ6Qw0BVqw&vet=1&docid=qdw5SsqiDMFX9M&hl=en&sa=X&ved=2ahUKEwjTppiLvoSFAxUSFlkFHe0MBCoQ9QF6BAgBEAQ
+2024-03-21 00:09:59,214 [MainThread  ] [DEBUG] Excluding URL because it contains "google": https://www.google.com/imgres?imgurl=https://static1.squarespace.com/static/6063a1593ff42c177aad2f5a/t/6063a6bc92145a7720ca4fb4/1696959602202/&imgrefurl=https://www.hitestlabs.com/&h=1000&w=1000&tbnid=fT_-DZ6NgImcNM&q=Hi+this+is+a+test&tbnh=149&tbnw=149&usg=AI4_-kSb-HFkDkSue96361SbNJ6Qw0BVqw&vet=1&docid=qdw5SsqiDMFX9M&hl=en&sa=X&ved=2ahUKEwjTppiLvoSFAxUSFlkFHe0MBCoQ9QF6BAgBEAQ
+2024-03-21 00:09:59,214 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2024-03-21 00:09:59,215 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: https://www.google.com/imgres?imgurl=https://hitestlab.com/wp-content/uploads/2022/01/HTL-full-logo-horizontaltagline.png&imgrefurl=https://hitestlab.com/&h=1556&w=3333&tbnid=VmyMY7-kA5pnMM&q=Hi+this+is+a+test&tbnh=70&tbnw=150&usg=AI4_-kR4cInZZWqbcUKlXCFDTevPcmkGCQ&vet=1&docid=yFADsxN8iEtR1M&hl=en&sa=X&ved=2ahUKEwjTppiLvoSFAxUSFlkFHe0MBCoQ9QF6BAgBEAY
+2024-03-21 00:09:59,215 [MainThread  ] [DEBUG] Excluding URL because it contains "google": https://www.google.com/imgres?imgurl=https://hitestlab.com/wp-content/uploads/2022/01/HTL-full-logo-horizontaltagline.png&imgrefurl=https://hitestlab.com/&h=1556&w=3333&tbnid=VmyMY7-kA5pnMM&q=Hi+this+is+a+test&tbnh=70&tbnw=150&usg=AI4_-kR4cInZZWqbcUKlXCFDTevPcmkGCQ&vet=1&docid=yFADsxN8iEtR1M&hl=en&sa=X&ved=2ahUKEwjTppiLvoSFAxUSFlkFHe0MBCoQ9QF6BAgBEAY
+2024-03-21 00:09:59,215 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2024-03-21 00:09:59,216 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: https://www.google.com/imgres?imgurl=https://images.squarespace-cdn.com/content/v1/6063a1593ff42c177aad2f5a/344e85ab-6de6-4b73-b310-94e10e0617a9/HTL%2BCranes%2B003.jpg&imgrefurl=https://www.hitestlabs.com/about&h=1406&w=2500&tbnid=lghAE-R8S0J4JM&q=Hi+this+is+a+test&tbnh=84&tbnw=150&usg=AI4_-kRhs-fqDZTpCnX5bcJH2giYakpQ_Q&vet=1&docid=jgP4FAJymPPtlM&hl=en&sa=X&ved=2ahUKEwjTppiLvoSFAxUSFlkFHe0MBCoQ9QF6BAgBEAg
+2024-03-21 00:09:59,216 [MainThread  ] [DEBUG] Excluding URL because it contains "google": https://www.google.com/imgres?imgurl=https://images.squarespace-cdn.com/content/v1/6063a1593ff42c177aad2f5a/344e85ab-6de6-4b73-b310-94e10e0617a9/HTL%2BCranes%2B003.jpg&imgrefurl=https://www.hitestlabs.com/about&h=1406&w=2500&tbnid=lghAE-R8S0J4JM&q=Hi+this+is+a+test&tbnh=84&tbnw=150&usg=AI4_-kRhs-fqDZTpCnX5bcJH2giYakpQ_Q&vet=1&docid=jgP4FAJymPPtlM&hl=en&sa=X&ved=2ahUKEwjTppiLvoSFAxUSFlkFHe0MBCoQ9QF6BAgBEAg
+2024-03-21 00:09:59,216 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2024-03-21 00:09:59,216 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: https://www.google.com/imgres?imgurl=https://cdn11.bigcommerce.com/s-1xa2dhlu0a/images/stencil/1280x1280/products/72644/84106/AHIFI01__21107.1657985262.jpg?c%3D1&imgrefurl=https://www.musicdirect.com/equipment/accessories/hifi-news-test-lp-producers-cut/&h=1280&w=1280&tbnid=iEeV9UY0qf3zeM&q=Hi+this+is+a+test&tbnh=150&tbnw=150&usg=AI4_-kQJ8fiZRQgS_r9JR-ChvYHIkVgW8Q&vet=1&docid=XKNRZ1Mgr6XwQM&hl=en&sa=X&ved=2ahUKEwjTppiLvoSFAxUSFlkFHe0MBCoQ9QF6BAgBEAo
+2024-03-21 00:09:59,216 [MainThread  ] [DEBUG] Excluding URL because it contains "google": https://www.google.com/imgres?imgurl=https://cdn11.bigcommerce.com/s-1xa2dhlu0a/images/stencil/1280x1280/products/72644/84106/AHIFI01__21107.1657985262.jpg?c%3D1&imgrefurl=https://www.musicdirect.com/equipment/accessories/hifi-news-test-lp-producers-cut/&h=1280&w=1280&tbnid=iEeV9UY0qf3zeM&q=Hi+this+is+a+test&tbnh=150&tbnw=150&usg=AI4_-kQJ8fiZRQgS_r9JR-ChvYHIkVgW8Q&vet=1&docid=XKNRZ1Mgr6XwQM&hl=en&sa=X&ved=2ahUKEwjTppiLvoSFAxUSFlkFHe0MBCoQ9QF6BAgBEAo
+2024-03-21 00:09:59,216 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2024-03-21 00:09:59,217 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: https://www.google.com/imgres?imgurl=https://tfwiki.net/mediawiki/images2/thumb/a/a6/FlashForward3-HiTest.jpg/250px-FlashForward3-HiTest.jpg&imgrefurl=https://tfwiki.net/wiki/Hi-Test_(G1)&h=236&w=250&tbnid=IKTfiEwmUbHjuM&q=Hi+this+is+a+test&tbnh=105&tbnw=111&usg=AI4_-kQquQ6VjJqS4am8RfOZg9EJQpdhBQ&vet=1&docid=HnsfJfYKlfNjpM&hl=en&sa=X&ved=2ahUKEwjTppiLvoSFAxUSFlkFHe0MBCoQ9QF6BAgBEAw
+2024-03-21 00:09:59,217 [MainThread  ] [DEBUG] Excluding URL because it contains "google": https://www.google.com/imgres?imgurl=https://tfwiki.net/mediawiki/images2/thumb/a/a6/FlashForward3-HiTest.jpg/250px-FlashForward3-HiTest.jpg&imgrefurl=https://tfwiki.net/wiki/Hi-Test_(G1)&h=236&w=250&tbnid=IKTfiEwmUbHjuM&q=Hi+this+is+a+test&tbnh=105&tbnw=111&usg=AI4_-kQquQ6VjJqS4am8RfOZg9EJQpdhBQ&vet=1&docid=HnsfJfYKlfNjpM&hl=en&sa=X&ved=2ahUKEwjTppiLvoSFAxUSFlkFHe0MBCoQ9QF6BAgBEAw
+2024-03-21 00:09:59,217 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2024-03-21 00:09:59,217 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: https://www.google.com/imgres?imgurl=https://static.wikia.nocookie.net/transformers/images/d/d9/Hi-Test_%2528Guilty_as_Charged%2529.jpg/revision/latest?cb%3D20190726211730&imgrefurl=https://transformers.fandom.com/wiki/Hi-Test_(RID)&h=478&w=856&tbnid=EE2fj8OvEihfRM&q=Hi+this+is+a+test&tbnh=81&tbnw=145&usg=AI4_-kTMQxPwEjQJF72yBInY_nzScTeubg&vet=1&docid=aPVf4PpI2aoV9M&hl=en&sa=X&ved=2ahUKEwjTppiLvoSFAxUSFlkFHe0MBCoQ9QF6BAgBEA4
+2024-03-21 00:09:59,218 [MainThread  ] [DEBUG] Excluding URL because it contains "google": https://www.google.com/imgres?imgurl=https://static.wikia.nocookie.net/transformers/images/d/d9/Hi-Test_%2528Guilty_as_Charged%2529.jpg/revision/latest?cb%3D20190726211730&imgrefurl=https://transformers.fandom.com/wiki/Hi-Test_(RID)&h=478&w=856&tbnid=EE2fj8OvEihfRM&q=Hi+this+is+a+test&tbnh=81&tbnw=145&usg=AI4_-kTMQxPwEjQJF72yBInY_nzScTeubg&vet=1&docid=aPVf4PpI2aoV9M&hl=en&sa=X&ved=2ahUKEwjTppiLvoSFAxUSFlkFHe0MBCoQ9QF6BAgBEA4
+2024-03-21 00:09:59,218 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2024-03-21 00:09:59,218 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: https://www.google.com/search?num=100&lr=lang_en&safe=off&sca_esv=c27c31a5ed104b1d&hl=en&tbs=lr:lang_1en&ei=FrP7ZdPDDpKs5NoP7ZmQ0AI&q=Hi+this+is+a+test&tbm=isch&sa=X&ved=2ahUKEwjTppiLvoSFAxUSFlkFHe0MBCoQ7Al6BAgBEA8
+2024-03-21 00:09:59,218 [MainThread  ] [DEBUG] Excluding URL because it contains "google": https://www.google.com/search?num=100&lr=lang_en&safe=off&sca_esv=c27c31a5ed104b1d&hl=en&tbs=lr:lang_1en&ei=FrP7ZdPDDpKs5NoP7ZmQ0AI&q=Hi+this+is+a+test&tbm=isch&sa=X&ved=2ahUKEwjTppiLvoSFAxUSFlkFHe0MBCoQ7Al6BAgBEA8
+2024-03-21 00:09:59,218 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2024-03-21 00:09:59,219 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /url?q=https://www.youtube.com/watch%3Fv%3DhSBEGtlkFPw&sa=U&ved=2ahUKEwjTppiLvoSFAxUSFlkFHe0MBCoQtwJ6BAhjEAE&usg=AOvVaw23fRAad0mVvYDb3tOO4qoQ
+2024-03-21 00:09:59,219 [MainThread  ] [DEBUG] post filter_search_result_urls() link: https://www.youtube.com/watch?v=hSBEGtlkFPw
+2024-03-21 00:09:59,219 [MainThread  ] [INFO] Found unique URL #1: https://www.youtube.com/watch?v=hSBEGtlkFPw
+2024-03-21 00:10:33,549 [MainThread  ] [INFO] Requesting URL: https://www.google.com/
+2024-03-21 00:10:33,754 [MainThread  ] [DEBUG]     status_code: 200
+2024-03-21 00:10:33,755 [MainThread  ] [DEBUG]     headers: {'User-Agent': 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.1) Gecko/20090701 Ubuntu/9.04 (jaunty) Firefox/3.5'}
+2024-03-21 00:10:33,757 [MainThread  ] [DEBUG]     cookies: <RequestsCookieJar[<Cookie 1P_JAR=2024-03-21-04 for .google.com/>, <Cookie AEC=Ae3NU9MWbkvm9F9xS_waznLxD3Y6bPBRHq1ajiCO9WNJ0Dknwgod0hm8Vg for .google.com/>, <Cookie NID=512=Id38amP0OlfYcW0ybM_32kJOdE-aeKTkghUJLB53qn9MWE_4z-eqn2sGNl8ENkFjM0xdSMUqXC37crn0KGzrlt_tfr3ZLptYY0z61gc7AFdAI98JVj67iV0HXn9rrjaMgkbHVt-LMAX_BeLa11G0bNebHqXrc76ETLqMHGW5JZY for .google.com/>]>
+2024-03-21 00:10:33,758 [MainThread  ] [DEBUG]     proxy: 
+2024-03-21 00:10:33,759 [MainThread  ] [DEBUG]     verify_ssl: True
+2024-03-21 00:10:33,763 [MainThread  ] [INFO] Stats: start=0, num=100, total_valid_links_found=0 / max_search_result_urls_to_return=1
+2024-03-21 00:10:33,764 [MainThread  ] [INFO] Requesting URL: https://www.google.com/search?hl=en&lr=lang_en&q=Hi+this+is+a+test&num=100&btnG=Google+Search&tbs=0&safe=off&cr=&filter=0
+2024-03-21 00:10:34,326 [MainThread  ] [DEBUG]     status_code: 200
+2024-03-21 00:10:34,328 [MainThread  ] [DEBUG]     headers: {'User-Agent': 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.1) Gecko/20090701 Ubuntu/9.04 (jaunty) Firefox/3.5'}
+2024-03-21 00:10:34,329 [MainThread  ] [DEBUG]     cookies: <RequestsCookieJar[<Cookie 1P_JAR=2024-03-21-04 for .google.com/>, <Cookie NID=512=oeG-OkUD9CdMV986kjir5eWgA_6UbCKrVsgbHP0QYEbvsKzwvtf7M3VJa3U889F5v7f8FUmvOWeH2ARiTa6Oq-WWTCPc4aozezoUfd9wRujScd85wveccYSR85BKY0viBNgaYF0yCW9lE6TsprILpcZrTL-_7Fw59NT-RJOIZtE for .google.com/>]>
+2024-03-21 00:10:34,330 [MainThread  ] [DEBUG]     proxy: 
+2024-03-21 00:10:34,331 [MainThread  ] [DEBUG]     verify_ssl: True
+2024-03-21 00:10:34,397 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /?num=100&lr=lang_en&safe=off&sa=G&sca_esv=c27c31a5ed104b1d&hl=en&output=search&tbs=lr:lang_1en&ved=0ahUKEwjr-pacvoSFAxV3ElkFHVDSDjkQPAgC
+2024-03-21 00:10:34,397 [MainThread  ] [DEBUG] Excluding URL because it does not contain a urllib.parse.urlparse netloc value: /?num=100&lr=lang_en&safe=off&sa=G&sca_esv=c27c31a5ed104b1d&hl=en&output=search&tbs=lr:lang_1en&ved=0ahUKEwjr-pacvoSFAxV3ElkFHVDSDjkQPAgC
+2024-03-21 00:10:34,398 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2024-03-21 00:10:34,398 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /search?q=Hi+this+is+a+test&num=100&lr=lang_en&safe=off&sca_esv=c27c31a5ed104b1d&hl=en&tbs=lr:lang_1en&tbm=isch&source=lnms&sa=X&ved=0ahUKEwjr-pacvoSFAxV3ElkFHVDSDjkQ_AUIBSgB
+2024-03-21 00:10:34,398 [MainThread  ] [DEBUG] Excluding URL because it does not contain a urllib.parse.urlparse netloc value: /search?q=Hi+this+is+a+test&num=100&lr=lang_en&safe=off&sca_esv=c27c31a5ed104b1d&hl=en&tbs=lr:lang_1en&tbm=isch&source=lnms&sa=X&ved=0ahUKEwjr-pacvoSFAxV3ElkFHVDSDjkQ_AUIBSgB
+2024-03-21 00:10:34,399 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2024-03-21 00:10:34,399 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /search?q=Hi+this+is+a+test&num=100&lr=lang_en&safe=off&sca_esv=c27c31a5ed104b1d&hl=en&tbs=lr:lang_1en&tbm=vid&source=lnms&sa=X&ved=0ahUKEwjr-pacvoSFAxV3ElkFHVDSDjkQ_AUIBigC
+2024-03-21 00:10:34,399 [MainThread  ] [DEBUG] Excluding URL because it does not contain a urllib.parse.urlparse netloc value: /search?q=Hi+this+is+a+test&num=100&lr=lang_en&safe=off&sca_esv=c27c31a5ed104b1d&hl=en&tbs=lr:lang_1en&tbm=vid&source=lnms&sa=X&ved=0ahUKEwjr-pacvoSFAxV3ElkFHVDSDjkQ_AUIBigC
+2024-03-21 00:10:34,400 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2024-03-21 00:10:34,400 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /search?q=Hi+this+is+a+test&num=100&lr=lang_en&safe=off&sca_esv=c27c31a5ed104b1d&hl=en&tbs=lr:lang_1en&tbm=nws&source=lnms&sa=X&ved=0ahUKEwjr-pacvoSFAxV3ElkFHVDSDjkQ_AUIBygD
+2024-03-21 00:10:34,400 [MainThread  ] [DEBUG] Excluding URL because it does not contain a urllib.parse.urlparse netloc value: /search?q=Hi+this+is+a+test&num=100&lr=lang_en&safe=off&sca_esv=c27c31a5ed104b1d&hl=en&tbs=lr:lang_1en&tbm=nws&source=lnms&sa=X&ved=0ahUKEwjr-pacvoSFAxV3ElkFHVDSDjkQ_AUIBygD
+2024-03-21 00:10:34,401 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2024-03-21 00:10:34,401 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: https://www.google.com/search?num=100&lr=lang_en&safe=off&sca_esv=c27c31a5ed104b1d&hl=en&tbs=lr:lang_1en&ei=ObP7Zav6NPek5NoP0KS7yAM&q=Hi+this+is+a+test&tbm=isch&sa=X&ved=2ahUKEwjr-pacvoSFAxV3ElkFHVDSDjkQsAR6BAgBEAE
+2024-03-21 00:10:34,401 [MainThread  ] [DEBUG] Excluding URL because it contains "google": https://www.google.com/search?num=100&lr=lang_en&safe=off&sca_esv=c27c31a5ed104b1d&hl=en&tbs=lr:lang_1en&ei=ObP7Zav6NPek5NoP0KS7yAM&q=Hi+this+is+a+test&tbm=isch&sa=X&ved=2ahUKEwjr-pacvoSFAxV3ElkFHVDSDjkQsAR6BAgBEAE
+2024-03-21 00:10:34,402 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2024-03-21 00:10:34,402 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: https://www.google.com/search?num=100&lr=lang_en&safe=off&sca_esv=c27c31a5ed104b1d&hl=en&tbs=lr:lang_1en&ei=ObP7Zav6NPek5NoP0KS7yAM&q=Hi+this+is+a+test&tbm=isch&sa=X&ved=2ahUKEwjr-pacvoSFAxV3ElkFHVDSDjkQ7Al6BAgBEAI
+2024-03-21 00:10:34,402 [MainThread  ] [DEBUG] Excluding URL because it contains "google": https://www.google.com/search?num=100&lr=lang_en&safe=off&sca_esv=c27c31a5ed104b1d&hl=en&tbs=lr:lang_1en&ei=ObP7Zav6NPek5NoP0KS7yAM&q=Hi+this+is+a+test&tbm=isch&sa=X&ved=2ahUKEwjr-pacvoSFAxV3ElkFHVDSDjkQ7Al6BAgBEAI
+2024-03-21 00:10:34,402 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2024-03-21 00:10:34,403 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: https://www.google.com/imgres?imgurl=https://static1.squarespace.com/static/6063a1593ff42c177aad2f5a/t/6063a6bc92145a7720ca4fb4/1696959602202/&imgrefurl=https://www.hitestlabs.com/&h=1000&w=1000&tbnid=fT_-DZ6NgImcNM&q=Hi+this+is+a+test&tbnh=149&tbnw=149&usg=AI4_-kSb-HFkDkSue96361SbNJ6Qw0BVqw&vet=1&docid=qdw5SsqiDMFX9M&hl=en&sa=X&ved=2ahUKEwjr-pacvoSFAxV3ElkFHVDSDjkQ9QF6BAgBEAQ
+2024-03-21 00:10:34,403 [MainThread  ] [DEBUG] Excluding URL because it contains "google": https://www.google.com/imgres?imgurl=https://static1.squarespace.com/static/6063a1593ff42c177aad2f5a/t/6063a6bc92145a7720ca4fb4/1696959602202/&imgrefurl=https://www.hitestlabs.com/&h=1000&w=1000&tbnid=fT_-DZ6NgImcNM&q=Hi+this+is+a+test&tbnh=149&tbnw=149&usg=AI4_-kSb-HFkDkSue96361SbNJ6Qw0BVqw&vet=1&docid=qdw5SsqiDMFX9M&hl=en&sa=X&ved=2ahUKEwjr-pacvoSFAxV3ElkFHVDSDjkQ9QF6BAgBEAQ
+2024-03-21 00:10:34,403 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2024-03-21 00:10:34,404 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: https://www.google.com/imgres?imgurl=https://hitestlab.com/wp-content/uploads/2022/01/HTL-full-logo-horizontaltagline.png&imgrefurl=https://hitestlab.com/&h=1556&w=3333&tbnid=VmyMY7-kA5pnMM&q=Hi+this+is+a+test&tbnh=70&tbnw=150&usg=AI4_-kR4cInZZWqbcUKlXCFDTevPcmkGCQ&vet=1&docid=yFADsxN8iEtR1M&hl=en&sa=X&ved=2ahUKEwjr-pacvoSFAxV3ElkFHVDSDjkQ9QF6BAgBEAY
+2024-03-21 00:10:34,404 [MainThread  ] [DEBUG] Excluding URL because it contains "google": https://www.google.com/imgres?imgurl=https://hitestlab.com/wp-content/uploads/2022/01/HTL-full-logo-horizontaltagline.png&imgrefurl=https://hitestlab.com/&h=1556&w=3333&tbnid=VmyMY7-kA5pnMM&q=Hi+this+is+a+test&tbnh=70&tbnw=150&usg=AI4_-kR4cInZZWqbcUKlXCFDTevPcmkGCQ&vet=1&docid=yFADsxN8iEtR1M&hl=en&sa=X&ved=2ahUKEwjr-pacvoSFAxV3ElkFHVDSDjkQ9QF6BAgBEAY
+2024-03-21 00:10:34,404 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2024-03-21 00:10:34,404 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: https://www.google.com/imgres?imgurl=https://images.squarespace-cdn.com/content/v1/6063a1593ff42c177aad2f5a/344e85ab-6de6-4b73-b310-94e10e0617a9/HTL%2BCranes%2B003.jpg&imgrefurl=https://www.hitestlabs.com/about&h=1406&w=2500&tbnid=lghAE-R8S0J4JM&q=Hi+this+is+a+test&tbnh=84&tbnw=150&usg=AI4_-kRhs-fqDZTpCnX5bcJH2giYakpQ_Q&vet=1&docid=jgP4FAJymPPtlM&hl=en&sa=X&ved=2ahUKEwjr-pacvoSFAxV3ElkFHVDSDjkQ9QF6BAgBEAg
+2024-03-21 00:10:34,405 [MainThread  ] [DEBUG] Excluding URL because it contains "google": https://www.google.com/imgres?imgurl=https://images.squarespace-cdn.com/content/v1/6063a1593ff42c177aad2f5a/344e85ab-6de6-4b73-b310-94e10e0617a9/HTL%2BCranes%2B003.jpg&imgrefurl=https://www.hitestlabs.com/about&h=1406&w=2500&tbnid=lghAE-R8S0J4JM&q=Hi+this+is+a+test&tbnh=84&tbnw=150&usg=AI4_-kRhs-fqDZTpCnX5bcJH2giYakpQ_Q&vet=1&docid=jgP4FAJymPPtlM&hl=en&sa=X&ved=2ahUKEwjr-pacvoSFAxV3ElkFHVDSDjkQ9QF6BAgBEAg
+2024-03-21 00:10:34,405 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2024-03-21 00:10:34,405 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: https://www.google.com/imgres?imgurl=https://cdn11.bigcommerce.com/s-1xa2dhlu0a/images/stencil/1280x1280/products/72644/84106/AHIFI01__21107.1657985262.jpg?c%3D1&imgrefurl=https://www.musicdirect.com/equipment/accessories/hifi-news-test-lp-producers-cut/&h=1280&w=1280&tbnid=iEeV9UY0qf3zeM&q=Hi+this+is+a+test&tbnh=150&tbnw=150&usg=AI4_-kQJ8fiZRQgS_r9JR-ChvYHIkVgW8Q&vet=1&docid=XKNRZ1Mgr6XwQM&hl=en&sa=X&ved=2ahUKEwjr-pacvoSFAxV3ElkFHVDSDjkQ9QF6BAgBEAo
+2024-03-21 00:10:34,406 [MainThread  ] [DEBUG] Excluding URL because it contains "google": https://www.google.com/imgres?imgurl=https://cdn11.bigcommerce.com/s-1xa2dhlu0a/images/stencil/1280x1280/products/72644/84106/AHIFI01__21107.1657985262.jpg?c%3D1&imgrefurl=https://www.musicdirect.com/equipment/accessories/hifi-news-test-lp-producers-cut/&h=1280&w=1280&tbnid=iEeV9UY0qf3zeM&q=Hi+this+is+a+test&tbnh=150&tbnw=150&usg=AI4_-kQJ8fiZRQgS_r9JR-ChvYHIkVgW8Q&vet=1&docid=XKNRZ1Mgr6XwQM&hl=en&sa=X&ved=2ahUKEwjr-pacvoSFAxV3ElkFHVDSDjkQ9QF6BAgBEAo
+2024-03-21 00:10:34,406 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2024-03-21 00:10:34,406 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: https://www.google.com/imgres?imgurl=https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id%3D100064956882680&imgrefurl=https://m.facebook.com/HiTestLabs/&h=1000&w=1000&tbnid=jymdYtKUW-uaNM&q=Hi+this+is+a+test&tbnh=149&tbnw=149&usg=AI4_-kSNhYe7hdXlfMpAFIZUPxOO_8ta5g&vet=1&docid=bl7B-SAek4kdMM&hl=en&sa=X&ved=2ahUKEwjr-pacvoSFAxV3ElkFHVDSDjkQ9QF6BAgBEAw
+2024-03-21 00:10:34,406 [MainThread  ] [DEBUG] Excluding URL because it contains "google": https://www.google.com/imgres?imgurl=https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id%3D100064956882680&imgrefurl=https://m.facebook.com/HiTestLabs/&h=1000&w=1000&tbnid=jymdYtKUW-uaNM&q=Hi+this+is+a+test&tbnh=149&tbnw=149&usg=AI4_-kSNhYe7hdXlfMpAFIZUPxOO_8ta5g&vet=1&docid=bl7B-SAek4kdMM&hl=en&sa=X&ved=2ahUKEwjr-pacvoSFAxV3ElkFHVDSDjkQ9QF6BAgBEAw
+2024-03-21 00:10:34,406 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2024-03-21 00:10:34,407 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: https://www.google.com/imgres?imgurl=https://tfwiki.net/mediawiki/images2/thumb/a/a6/FlashForward3-HiTest.jpg/250px-FlashForward3-HiTest.jpg&imgrefurl=https://tfwiki.net/wiki/Hi-Test_(G1)&h=236&w=250&tbnid=IKTfiEwmUbHjuM&q=Hi+this+is+a+test&tbnh=105&tbnw=111&usg=AI4_-kQquQ6VjJqS4am8RfOZg9EJQpdhBQ&vet=1&docid=HnsfJfYKlfNjpM&hl=en&sa=X&ved=2ahUKEwjr-pacvoSFAxV3ElkFHVDSDjkQ9QF6BAgBEA4
+2024-03-21 00:10:34,407 [MainThread  ] [DEBUG] Excluding URL because it contains "google": https://www.google.com/imgres?imgurl=https://tfwiki.net/mediawiki/images2/thumb/a/a6/FlashForward3-HiTest.jpg/250px-FlashForward3-HiTest.jpg&imgrefurl=https://tfwiki.net/wiki/Hi-Test_(G1)&h=236&w=250&tbnid=IKTfiEwmUbHjuM&q=Hi+this+is+a+test&tbnh=105&tbnw=111&usg=AI4_-kQquQ6VjJqS4am8RfOZg9EJQpdhBQ&vet=1&docid=HnsfJfYKlfNjpM&hl=en&sa=X&ved=2ahUKEwjr-pacvoSFAxV3ElkFHVDSDjkQ9QF6BAgBEA4
+2024-03-21 00:10:34,407 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2024-03-21 00:10:34,407 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: https://www.google.com/search?num=100&lr=lang_en&safe=off&sca_esv=c27c31a5ed104b1d&hl=en&tbs=lr:lang_1en&ei=ObP7Zav6NPek5NoP0KS7yAM&q=Hi+this+is+a+test&tbm=isch&sa=X&ved=2ahUKEwjr-pacvoSFAxV3ElkFHVDSDjkQ7Al6BAgBEA8
+2024-03-21 00:10:34,408 [MainThread  ] [DEBUG] Excluding URL because it contains "google": https://www.google.com/search?num=100&lr=lang_en&safe=off&sca_esv=c27c31a5ed104b1d&hl=en&tbs=lr:lang_1en&ei=ObP7Zav6NPek5NoP0KS7yAM&q=Hi+this+is+a+test&tbm=isch&sa=X&ved=2ahUKEwjr-pacvoSFAxV3ElkFHVDSDjkQ7Al6BAgBEA8
+2024-03-21 00:10:34,408 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2024-03-21 00:10:34,408 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /url?q=https://www.youtube.com/watch%3Fv%3DhSBEGtlkFPw&sa=U&ved=2ahUKEwjr-pacvoSFAxV3ElkFHVDSDjkQtwJ6BAgIEAE&usg=AOvVaw0cj5omyX8YWv88Q9EHtzn4
+2024-03-21 00:10:34,408 [MainThread  ] [DEBUG] post filter_search_result_urls() link: https://www.youtube.com/watch?v=hSBEGtlkFPw
+2024-03-21 00:10:34,409 [MainThread  ] [INFO] Found unique URL #1: https://www.youtube.com/watch?v=hSBEGtlkFPw
+2024-03-21 00:25:54,872 [MainThread  ] [INFO] Requesting URL: https://www.google.com/
+2024-03-21 00:25:55,117 [MainThread  ] [DEBUG]     status_code: 200
+2024-03-21 00:25:55,118 [MainThread  ] [DEBUG]     headers: {'User-Agent': 'Mozilla/5.0 (Windows; U; Windows NT 6.1; ja-JP) AppleWebKit/533.16 (KHTML, like Gecko) Version/5.0 Safari/533.16'}
+2024-03-21 00:25:55,120 [MainThread  ] [DEBUG]     cookies: <RequestsCookieJar[<Cookie 1P_JAR=2024-03-21-04 for .google.com/>, <Cookie AEC=Ae3NU9OwiGeXuIHvI2MxaZmPHmfK2MmO3ZQ7dSLxJQjpuRJINOZlmICbmyw for .google.com/>, <Cookie NID=512=H6ZwTMmYBSHdx_VZZ-hjiimkqhf3TD4H7Ix9SAagLXCbnL0EqCF9cJbGcUuwAm_ccshJe0hO5rzNwYcKDxp_vypwGJg0BtkwKqI9LmytK_eZWQgug4S99Lxb-m1U2kEdh2rma5W8cIsTLjIt2nYGVQxOQLvdSGT43r7dV_k1HYw for .google.com/>]>
+2024-03-21 00:25:55,121 [MainThread  ] [DEBUG]     proxy: 
+2024-03-21 00:25:55,121 [MainThread  ] [DEBUG]     verify_ssl: True
+2024-03-21 00:25:55,124 [MainThread  ] [INFO] Stats: start=0, num=100, total_valid_links_found=0 / max_search_result_urls_to_return=5
+2024-03-21 00:25:55,124 [MainThread  ] [INFO] Requesting URL: https://www.google.com/search?hl=en&lr=lang_en&q=%224D+Molecular+Therapeutics+Inc.%28FDMT%29%22+Usage+of+generative+AI&num=100&btnG=Google+Search&tbs=0&safe=off&cr=&filter=0
+2024-03-21 00:25:55,577 [MainThread  ] [DEBUG]     status_code: 200
+2024-03-21 00:25:55,578 [MainThread  ] [DEBUG]     headers: {'User-Agent': 'Mozilla/5.0 (Windows; U; Windows NT 6.1; ja-JP) AppleWebKit/533.16 (KHTML, like Gecko) Version/5.0 Safari/533.16'}
+2024-03-21 00:25:55,579 [MainThread  ] [DEBUG]     cookies: <RequestsCookieJar[<Cookie 1P_JAR=2024-03-21-04 for .google.com/>, <Cookie NID=512=Jc0Yi8zR_ZfJZ2Ry_7VcIyLWQGTMfBwqSDUCa8qvBfmX3ISaEGoD8H0hJnRx1i8c29Y26qWypEvB0BGyyJvrK6ZwAgO3rZhbEHwz9gApEYelZEEZE5Iqmd78kbovA_wovAhC_qSpMc0hx8JFpeu7vlxEneBjqkgqnM6Ghs4FGWGlC4q-PO9ZPL0 for .google.com/>]>
+2024-03-21 00:25:55,580 [MainThread  ] [DEBUG]     proxy: 
+2024-03-21 00:25:55,581 [MainThread  ] [DEBUG]     verify_ssl: True
+2024-03-21 00:25:55,593 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /?sa=X&ved=0ahUKEwicqsHTwYSFAxW-L1kFHbOvDQEQOwgC
+2024-03-21 00:25:55,594 [MainThread  ] [DEBUG] Excluding URL because it does not contain a urllib.parse.urlparse netloc value: /?sa=X&ved=0ahUKEwicqsHTwYSFAxW-L1kFHbOvDQEQOwgC
+2024-03-21 00:25:55,595 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2024-03-21 00:25:55,595 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /search?q=%224D+Molecular+Therapeutics+Inc.(FDMT)%22+Usage+of+generative+AI&num=100&lr=lang_en&safe=off&sa=G&sca_esv=c27c31a5ed104b1d&hl=en&tbs=lr:lang_1en&gbv=1&sei=07b7Zdz0DL7f5NoPs9-2CA
+2024-03-21 00:25:55,596 [MainThread  ] [DEBUG] Excluding URL because it does not contain a urllib.parse.urlparse netloc value: /search?q=%224D+Molecular+Therapeutics+Inc.(FDMT)%22+Usage+of+generative+AI&num=100&lr=lang_en&safe=off&sa=G&sca_esv=c27c31a5ed104b1d&hl=en&tbs=lr:lang_1en&gbv=1&sei=07b7Zdz0DL7f5NoPs9-2CA
+2024-03-21 00:25:55,596 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2024-03-21 00:25:55,597 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /search?q=%224D+Molecular+Therapeutics+Inc.(FDMT)%22+Usage+of+generative+AI&num=100&lr=lang_en&safe=off&sca_esv=c27c31a5ed104b1d&hl=en&tbs=lr:lang_1en&tbm=nws&source=lnms&sa=X&ved=0ahUKEwicqsHTwYSFAxW-L1kFHbOvDQEQ_AUIBigB
+2024-03-21 00:25:55,598 [MainThread  ] [DEBUG] Excluding URL because it does not contain a urllib.parse.urlparse netloc value: /search?q=%224D+Molecular+Therapeutics+Inc.(FDMT)%22+Usage+of+generative+AI&num=100&lr=lang_en&safe=off&sca_esv=c27c31a5ed104b1d&hl=en&tbs=lr:lang_1en&tbm=nws&source=lnms&sa=X&ved=0ahUKEwicqsHTwYSFAxW-L1kFHbOvDQEQ_AUIBigB
+2024-03-21 00:25:55,599 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2024-03-21 00:25:55,600 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /search?q=%224D+Molecular+Therapeutics+Inc.(FDMT)%22+Usage+of+generative+AI&num=100&lr=lang_en&safe=off&sca_esv=c27c31a5ed104b1d&hl=en&tbs=lr:lang_1en&tbm=bks&source=lnms&sa=X&ved=0ahUKEwicqsHTwYSFAxW-L1kFHbOvDQEQ_AUIBygC
+2024-03-21 00:25:55,601 [MainThread  ] [DEBUG] Excluding URL because it does not contain a urllib.parse.urlparse netloc value: /search?q=%224D+Molecular+Therapeutics+Inc.(FDMT)%22+Usage+of+generative+AI&num=100&lr=lang_en&safe=off&sca_esv=c27c31a5ed104b1d&hl=en&tbs=lr:lang_1en&tbm=bks&source=lnms&sa=X&ved=0ahUKEwicqsHTwYSFAxW-L1kFHbOvDQEQ_AUIBygC
+2024-03-21 00:25:55,601 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2024-03-21 00:25:55,602 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /search?q=%224D+Molecular+Therapeutics+Inc.(FDMT)%22+Usage+of+generative+AI&num=100&lr=lang_en&safe=off&sca_esv=c27c31a5ed104b1d&hl=en&tbs=lr:lang_1en&tbm=isch&source=lnms&sa=X&ved=0ahUKEwicqsHTwYSFAxW-L1kFHbOvDQEQ_AUICCgD
+2024-03-21 00:25:55,602 [MainThread  ] [DEBUG] Excluding URL because it does not contain a urllib.parse.urlparse netloc value: /search?q=%224D+Molecular+Therapeutics+Inc.(FDMT)%22+Usage+of+generative+AI&num=100&lr=lang_en&safe=off&sca_esv=c27c31a5ed104b1d&hl=en&tbs=lr:lang_1en&tbm=isch&source=lnms&sa=X&ved=0ahUKEwicqsHTwYSFAxW-L1kFHbOvDQEQ_AUICCgD
+2024-03-21 00:25:55,603 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2024-03-21 00:25:55,604 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /url?url=https://maps.google.com/maps%3Fhl%3Den%26lr%3Dlang_en%26q%3D%25224D%2BMolecular%2BTherapeutics%2BInc.(FDMT)%2522%2BUsage%2Bof%2Bgenerative%2BAI%26num%3D100%26safe%3Doff%26cr%3D%26filter%3D0%26um%3D1%26ie%3DUTF-8%26ved%3D1t:200713%26ictx%3D111&rct=j&q=&esrc=s&opi=89978449&sa=U&ved=0ahUKEwicqsHTwYSFAxW-L1kFHbOvDQEQiaAMCAkoBA&usg=AOvVaw1ZbZrsxsF35v61qzgLo46p
+2024-03-21 00:25:55,604 [MainThread  ] [DEBUG] Excluding URL because it contains "google": https://maps.google.com/maps?hl=en&lr=lang_en&q=%224D+Molecular+Therapeutics+Inc.(FDMT)%22+Usage+of+generative+AI&num=100&safe=off&cr=&filter=0&um=1&ie=UTF-8&ved=1t:200713&ictx=111
+2024-03-21 00:25:55,605 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2024-03-21 00:25:55,605 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /search?q=%224D+Molecular+Therapeutics+Inc.(FDMT)%22+Usage+of+generative+AI&num=100&lr=lang_en&safe=off&sca_esv=c27c31a5ed104b1d&hl=en&tbs=lr:lang_1en&tbm=vid&source=lnms&sa=X&ved=0ahUKEwicqsHTwYSFAxW-L1kFHbOvDQEQ_AUICigF
+2024-03-21 00:25:55,606 [MainThread  ] [DEBUG] Excluding URL because it does not contain a urllib.parse.urlparse netloc value: /search?q=%224D+Molecular+Therapeutics+Inc.(FDMT)%22+Usage+of+generative+AI&num=100&lr=lang_en&safe=off&sca_esv=c27c31a5ed104b1d&hl=en&tbs=lr:lang_1en&tbm=vid&source=lnms&sa=X&ved=0ahUKEwicqsHTwYSFAxW-L1kFHbOvDQEQ_AUICigF
+2024-03-21 00:25:55,606 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2024-03-21 00:25:55,607 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: http://www.google.com/url?url=/search%3Fq%3D%25224D%2BMolecular%2BTherapeutics%2BInc.(FDMT)%2522%2BUsage%2Bof%2Bgenerative%2BAI%26num%3D100%26lr%3Dlang_en%26safe%3Doff%26sca_esv%3Dc27c31a5ed104b1d%26hl%3Den%26tbs%3Dlr:lang_1en%26tbm%3Dshop%26source%3Dlnms%26ved%3D1t:200713%26ictx%3D111&rct=j&q=&esrc=s&opi=89978449&sa=U&ved=0ahUKEwicqsHTwYSFAxW-L1kFHbOvDQEQiaAMCAsoBg&usg=AOvVaw3yMpLPLEDciWgfRGH5eVWY
+2024-03-21 00:25:55,607 [MainThread  ] [DEBUG] Excluding URL because it does not contain a urllib.parse.urlparse netloc value: /search?q=%224D+Molecular+Therapeutics+Inc.(FDMT)%22+Usage+of+generative+AI&num=100&lr=lang_en&safe=off&sca_esv=c27c31a5ed104b1d&hl=en&tbs=lr:lang_1en&tbm=shop&source=lnms&ved=1t:200713&ictx=111
+2024-03-21 00:25:55,608 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2024-03-21 00:25:55,609 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /advanced_search
+2024-03-21 00:25:55,610 [MainThread  ] [DEBUG] Excluding URL because it does not contain a urllib.parse.urlparse netloc value: /advanced_search
+2024-03-21 00:25:55,610 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2024-03-21 00:25:55,611 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /search?q=%224D+Molecular+Therapeutics+Inc.(FDMT)%22+Usage+of+generative+AI&num=100&safe=off&sca_esv=c27c31a5ed104b1d&hl=en&tbas=0&source=lnt&sa=X&ved=0ahUKEwicqsHTwYSFAxW-L1kFHbOvDQEQpwUIDA
+2024-03-21 00:25:55,612 [MainThread  ] [DEBUG] Excluding URL because it does not contain a urllib.parse.urlparse netloc value: /search?q=%224D+Molecular+Therapeutics+Inc.(FDMT)%22+Usage+of+generative+AI&num=100&safe=off&sca_esv=c27c31a5ed104b1d&hl=en&tbas=0&source=lnt&sa=X&ved=0ahUKEwicqsHTwYSFAxW-L1kFHbOvDQEQpwUIDA
+2024-03-21 00:25:55,612 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2024-03-21 00:25:55,613 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /search?q=%224D+Molecular+Therapeutics+Inc.(FDMT)%22+Usage+of+generative+AI&num=100&lr=lang_en&safe=off&sca_esv=c27c31a5ed104b1d&hl=en&tbs=lr:lang_1en,qdr:h&source=lnt&sa=X&ved=0ahUKEwicqsHTwYSFAxW-L1kFHbOvDQEQpwUIDw
+2024-03-21 00:25:55,614 [MainThread  ] [DEBUG] Excluding URL because it does not contain a urllib.parse.urlparse netloc value: /search?q=%224D+Molecular+Therapeutics+Inc.(FDMT)%22+Usage+of+generative+AI&num=100&lr=lang_en&safe=off&sca_esv=c27c31a5ed104b1d&hl=en&tbs=lr:lang_1en,qdr:h&source=lnt&sa=X&ved=0ahUKEwicqsHTwYSFAxW-L1kFHbOvDQEQpwUIDw
+2024-03-21 00:25:55,614 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2024-03-21 00:25:55,614 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /search?q=%224D+Molecular+Therapeutics+Inc.(FDMT)%22+Usage+of+generative+AI&num=100&lr=lang_en&safe=off&sca_esv=c27c31a5ed104b1d&hl=en&tbs=lr:lang_1en,qdr:d&source=lnt&sa=X&ved=0ahUKEwicqsHTwYSFAxW-L1kFHbOvDQEQpwUIEA
+2024-03-21 00:25:55,615 [MainThread  ] [DEBUG] Excluding URL because it does not contain a urllib.parse.urlparse netloc value: /search?q=%224D+Molecular+Therapeutics+Inc.(FDMT)%22+Usage+of+generative+AI&num=100&lr=lang_en&safe=off&sca_esv=c27c31a5ed104b1d&hl=en&tbs=lr:lang_1en,qdr:d&source=lnt&sa=X&ved=0ahUKEwicqsHTwYSFAxW-L1kFHbOvDQEQpwUIEA
+2024-03-21 00:25:55,615 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2024-03-21 00:25:55,615 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /search?q=%224D+Molecular+Therapeutics+Inc.(FDMT)%22+Usage+of+generative+AI&num=100&lr=lang_en&safe=off&sca_esv=c27c31a5ed104b1d&hl=en&tbs=lr:lang_1en,qdr:w&source=lnt&sa=X&ved=0ahUKEwicqsHTwYSFAxW-L1kFHbOvDQEQpwUIEQ
+2024-03-21 00:25:55,616 [MainThread  ] [DEBUG] Excluding URL because it does not contain a urllib.parse.urlparse netloc value: /search?q=%224D+Molecular+Therapeutics+Inc.(FDMT)%22+Usage+of+generative+AI&num=100&lr=lang_en&safe=off&sca_esv=c27c31a5ed104b1d&hl=en&tbs=lr:lang_1en,qdr:w&source=lnt&sa=X&ved=0ahUKEwicqsHTwYSFAxW-L1kFHbOvDQEQpwUIEQ
+2024-03-21 00:25:55,616 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2024-03-21 00:25:55,617 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /search?q=%224D+Molecular+Therapeutics+Inc.(FDMT)%22+Usage+of+generative+AI&num=100&lr=lang_en&safe=off&sca_esv=c27c31a5ed104b1d&hl=en&tbs=lr:lang_1en,qdr:m&source=lnt&sa=X&ved=0ahUKEwicqsHTwYSFAxW-L1kFHbOvDQEQpwUIEg
+2024-03-21 00:25:55,617 [MainThread  ] [DEBUG] Excluding URL because it does not contain a urllib.parse.urlparse netloc value: /search?q=%224D+Molecular+Therapeutics+Inc.(FDMT)%22+Usage+of+generative+AI&num=100&lr=lang_en&safe=off&sca_esv=c27c31a5ed104b1d&hl=en&tbs=lr:lang_1en,qdr:m&source=lnt&sa=X&ved=0ahUKEwicqsHTwYSFAxW-L1kFHbOvDQEQpwUIEg
+2024-03-21 00:25:55,617 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2024-03-21 00:25:55,618 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /search?q=%224D+Molecular+Therapeutics+Inc.(FDMT)%22+Usage+of+generative+AI&num=100&lr=lang_en&safe=off&sca_esv=c27c31a5ed104b1d&hl=en&tbs=lr:lang_1en,qdr:y&source=lnt&sa=X&ved=0ahUKEwicqsHTwYSFAxW-L1kFHbOvDQEQpwUIEw
+2024-03-21 00:25:55,618 [MainThread  ] [DEBUG] Excluding URL because it does not contain a urllib.parse.urlparse netloc value: /search?q=%224D+Molecular+Therapeutics+Inc.(FDMT)%22+Usage+of+generative+AI&num=100&lr=lang_en&safe=off&sca_esv=c27c31a5ed104b1d&hl=en&tbs=lr:lang_1en,qdr:y&source=lnt&sa=X&ved=0ahUKEwicqsHTwYSFAxW-L1kFHbOvDQEQpwUIEw
+2024-03-21 00:25:55,618 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2024-03-21 00:25:55,619 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /search?q=%224D+Molecular+Therapeutics+Inc.(FDMT)%22+Usage+of+generative+AI&num=100&safe=off&sca_esv=c27c31a5ed104b1d&hl=en&tbs=li:1&source=lnt&sa=X&ved=0ahUKEwicqsHTwYSFAxW-L1kFHbOvDQEQpwUIFQ
+2024-03-21 00:25:55,619 [MainThread  ] [DEBUG] Excluding URL because it does not contain a urllib.parse.urlparse netloc value: /search?q=%224D+Molecular+Therapeutics+Inc.(FDMT)%22+Usage+of+generative+AI&num=100&safe=off&sca_esv=c27c31a5ed104b1d&hl=en&tbs=li:1&source=lnt&sa=X&ved=0ahUKEwicqsHTwYSFAxW-L1kFHbOvDQEQpwUIFQ
+2024-03-21 00:25:55,620 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2024-03-21 00:25:55,620 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /url?esrc=s&q=&rct=j&sa=U&url=https://malaysia.news.yahoo.com/aclaris-therapeutics-acrs-reports-q1-121512171.html&ved=2ahUKEwicqsHTwYSFAxW-L1kFHbOvDQEQFnoECAAQAg&usg=AOvVaw3S724oC5yGepueibUgeLPK
+2024-03-21 00:25:55,621 [MainThread  ] [DEBUG] post filter_search_result_urls() link: https://malaysia.news.yahoo.com/aclaris-therapeutics-acrs-reports-q1-121512171.html
+2024-03-21 00:25:55,621 [MainThread  ] [INFO] Found unique URL #1: https://malaysia.news.yahoo.com/aclaris-therapeutics-acrs-reports-q1-121512171.html
+2024-03-21 00:25:55,621 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /url?esrc=s&q=&rct=j&sa=U&url=https://www.theglobeandmail.com/investing/markets/indices/DOWG/pressreleases/23839054/stocks-set-to-open-lower-as-bond-yields-climb-on-powell-remarks-earnings-and-fed-speak-in-focus/&ved=2ahUKEwicqsHTwYSFAxW-L1kFHbOvDQEQFnoECAEQAg&usg=AOvVaw1WdVoxdNQ4ftMmYn10m6zv
+2024-03-21 00:25:55,622 [MainThread  ] [DEBUG] post filter_search_result_urls() link: https://www.theglobeandmail.com/investing/markets/indices/DOWG/pressreleases/23839054/stocks-set-to-open-lower-as-bond-yields-climb-on-powell-remarks-earnings-and-fed-speak-in-focus/
+2024-03-21 00:25:55,622 [MainThread  ] [INFO] Found unique URL #2: https://www.theglobeandmail.com/investing/markets/indices/DOWG/pressreleases/23839054/stocks-set-to-open-lower-as-bond-yields-climb-on-powell-remarks-earnings-and-fed-speak-in-focus/
+2024-03-21 00:25:55,622 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /url?esrc=s&q=&rct=j&sa=U&url=https://www.theglobeandmail.com/investing/markets/indices/TTUT/pressreleases/23839054/stocks-set-to-open-lower-as-bond-yields-climb-on-powell-remarks-earnings-and-fed-speak-in-focus/&ved=2ahUKEwicqsHTwYSFAxW-L1kFHbOvDQEQFnoECAIQAg&usg=AOvVaw0Fya84v1vS2yOZzl5IcKrv
+2024-03-21 00:25:55,623 [MainThread  ] [DEBUG] post filter_search_result_urls() link: https://www.theglobeandmail.com/investing/markets/indices/TTUT/pressreleases/23839054/stocks-set-to-open-lower-as-bond-yields-climb-on-powell-remarks-earnings-and-fed-speak-in-focus/
+2024-03-21 00:25:55,623 [MainThread  ] [INFO] Found unique URL #3: https://www.theglobeandmail.com/investing/markets/indices/TTUT/pressreleases/23839054/stocks-set-to-open-lower-as-bond-yields-climb-on-powell-remarks-earnings-and-fed-speak-in-focus/
+2024-03-21 00:25:55,623 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /url?url=https://support.google.com/websearch%3Fp%3Dws_settings_location%26hl%3Den&rct=j&q=&esrc=s&opi=89978449&sa=U&ved=0ahUKEwicqsHTwYSFAxW-L1kFHbOvDQEQty4IJA&usg=AOvVaw0hXtnt5zg7vRhLKSOBZVPb
+2024-03-21 00:25:55,624 [MainThread  ] [DEBUG] Excluding URL because it contains "google": https://support.google.com/websearch?p=ws_settings_location&hl=en
+2024-03-21 00:25:55,624 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2024-03-21 00:25:55,624 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /url?url=https://accounts.google.com/ServiceLogin%3Fcontinue%3Dhttps://www.google.com/search%253Fhl%253Den%2526lr%253Dlang_en%2526q%253D%2525224D%252BMolecular%252BTherapeutics%252BInc.(FDMT)%252522%252BUsage%252Bof%252Bgenerative%252BAI%2526num%253D100%2526btnG%253DGoogle%252BSearch%2526tbs%253D0%2526safe%253Doff%2526cr%253D%2526filter%253D0%26hl%3Den&rct=j&q=&esrc=s&opi=89978449&sa=U&ved=0ahUKEwicqsHTwYSFAxW-L1kFHbOvDQEQxs8CCCU&usg=AOvVaw0isRTbcOaFeA5MS0rk8nLo
+2024-03-21 00:25:55,625 [MainThread  ] [DEBUG] Excluding URL because it contains "google": https://accounts.google.com/ServiceLogin?continue=https://www.google.com/search%3Fhl%3Den%26lr%3Dlang_en%26q%3D%25224D%2BMolecular%2BTherapeutics%2BInc.(FDMT)%2522%2BUsage%2Bof%2Bgenerative%2BAI%26num%3D100%26btnG%3DGoogle%2BSearch%26tbs%3D0%26safe%3Doff%26cr%3D%26filter%3D0&hl=en
+2024-03-21 00:25:55,625 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2024-03-21 00:25:55,625 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: https://www.google.com/preferences?hl=en&fg=1&sa=X&ved=0ahUKEwicqsHTwYSFAxW-L1kFHbOvDQEQ5fUCCCY
+2024-03-21 00:25:55,625 [MainThread  ] [DEBUG] Excluding URL because it contains "google": https://www.google.com/preferences?hl=en&fg=1&sa=X&ved=0ahUKEwicqsHTwYSFAxW-L1kFHbOvDQEQ5fUCCCY
+2024-03-21 00:25:55,626 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2024-03-21 00:25:55,626 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: https://policies.google.com/privacy?hl=en&fg=1
+2024-03-21 00:25:55,626 [MainThread  ] [DEBUG] Excluding URL because it contains "google": https://policies.google.com/privacy?hl=en&fg=1
+2024-03-21 00:25:55,627 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2024-03-21 00:25:55,627 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: https://policies.google.com/terms?hl=en&fg=1
+2024-03-21 00:25:55,627 [MainThread  ] [DEBUG] Excluding URL because it contains "google": https://policies.google.com/terms?hl=en&fg=1
+2024-03-21 00:25:55,628 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2024-03-21 00:25:55,628 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /setprefs?hl=en&prev=https://www.google.com/search?hl%3Den%26lr%3Dlang_en%26q%3D%25224D%2BMolecular%2BTherapeutics%2BInc.(FDMT)%2522%2BUsage%2Bof%2Bgenerative%2BAI%26num%3D100%26btnG%3DGoogle%2BSearch%26tbs%3D0%26safe%3Doff%26cr%26filter%3D0%26pccc%3D1&sig=0_972vRaGOh5kdUIDZmZtM8BIdczo%3D&cs=2&sa=X&ved=0ahUKEwicqsHTwYSFAxW-L1kFHbOvDQEQjcAJCCc
+2024-03-21 00:25:55,628 [MainThread  ] [DEBUG] Excluding URL because it does not contain a urllib.parse.urlparse netloc value: /setprefs?hl=en&prev=https://www.google.com/search?hl%3Den%26lr%3Dlang_en%26q%3D%25224D%2BMolecular%2BTherapeutics%2BInc.(FDMT)%2522%2BUsage%2Bof%2Bgenerative%2BAI%26num%3D100%26btnG%3DGoogle%2BSearch%26tbs%3D0%26safe%3Doff%26cr%26filter%3D0%26pccc%3D1&sig=0_972vRaGOh5kdUIDZmZtM8BIdczo%3D&cs=2&sa=X&ved=0ahUKEwicqsHTwYSFAxW-L1kFHbOvDQEQjcAJCCc
+2024-03-21 00:25:55,629 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2024-03-21 00:25:55,629 [MainThread  ] [INFO] Sleeping 11 seconds until retrieving the next page of results...
+2024-03-21 00:26:06,635 [MainThread  ] [INFO] Stats: start=100, num=100, total_valid_links_found=3 / max_search_result_urls_to_return=5
+2024-03-21 00:26:06,637 [MainThread  ] [INFO] Requesting URL: https://www.google.com/search?hl=en&lr=lang_en&q=%224D+Molecular+Therapeutics+Inc.%28FDMT%29%22+Usage+of+generative+AI&start=100&num=100&tbs=0&safe=off&cr=&filter=0
+2024-03-21 00:26:06,984 [MainThread  ] [DEBUG]     status_code: 200
+2024-03-21 00:26:06,986 [MainThread  ] [DEBUG]     headers: {'User-Agent': 'Mozilla/5.0 (Windows; U; Windows NT 6.1; ja-JP) AppleWebKit/533.16 (KHTML, like Gecko) Version/5.0 Safari/533.16'}
+2024-03-21 00:26:06,987 [MainThread  ] [DEBUG]     cookies: <RequestsCookieJar[<Cookie 1P_JAR=2024-03-21-04 for .google.com/>, <Cookie AEC=Ae3NU9N7D_BnUeZBoUMX1DCjUVWqZW7ngPe4qOssP5-yXEjU4wO9FgsVIpc for .google.com/>]>
+2024-03-21 00:26:06,988 [MainThread  ] [DEBUG]     proxy: 
+2024-03-21 00:26:06,989 [MainThread  ] [DEBUG]     verify_ssl: True
+2024-03-21 00:26:07,002 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /?sa=X&ved=0ahUKEwjyz4HZwYSFAxVQEVkFHaEhDn84ZBA7CAI
+2024-03-21 00:26:07,003 [MainThread  ] [DEBUG] Excluding URL because it does not contain a urllib.parse.urlparse netloc value: /?sa=X&ved=0ahUKEwjyz4HZwYSFAxVQEVkFHaEhDn84ZBA7CAI
+2024-03-21 00:26:07,004 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2024-03-21 00:26:07,004 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /search?q=%224D+Molecular+Therapeutics+Inc.(FDMT)%22+Usage+of+generative+AI&start=100&num=100&lr=lang_en&safe=off&sca_esv=78bf11b474d34c1d&hl=en&tbs=lr:lang_1en&gbv=1&sei=3rb7ZfLoLdCi5NoPocO4-Ac
+2024-03-21 00:26:07,005 [MainThread  ] [DEBUG] Excluding URL because it does not contain a urllib.parse.urlparse netloc value: /search?q=%224D+Molecular+Therapeutics+Inc.(FDMT)%22+Usage+of+generative+AI&start=100&num=100&lr=lang_en&safe=off&sca_esv=78bf11b474d34c1d&hl=en&tbs=lr:lang_1en&gbv=1&sei=3rb7ZfLoLdCi5NoPocO4-Ac
+2024-03-21 00:26:07,005 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2024-03-21 00:26:07,005 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /search?q=%224D+Molecular+Therapeutics+Inc.(FDMT)%22+Usage+of+generative+AI&num=100&lr=lang_en&safe=off&sca_esv=78bf11b474d34c1d&hl=en&tbs=lr:lang_1en&tbm=nws&source=lnms&sa=X&ved=0ahUKEwjyz4HZwYSFAxVQEVkFHaEhDn84ZBD8BQgGKAE
+2024-03-21 00:26:07,006 [MainThread  ] [DEBUG] Excluding URL because it does not contain a urllib.parse.urlparse netloc value: /search?q=%224D+Molecular+Therapeutics+Inc.(FDMT)%22+Usage+of+generative+AI&num=100&lr=lang_en&safe=off&sca_esv=78bf11b474d34c1d&hl=en&tbs=lr:lang_1en&tbm=nws&source=lnms&sa=X&ved=0ahUKEwjyz4HZwYSFAxVQEVkFHaEhDn84ZBD8BQgGKAE
+2024-03-21 00:26:07,006 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2024-03-21 00:26:07,007 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /search?q=%224D+Molecular+Therapeutics+Inc.(FDMT)%22+Usage+of+generative+AI&num=100&lr=lang_en&safe=off&sca_esv=78bf11b474d34c1d&hl=en&tbs=lr:lang_1en&tbm=bks&source=lnms&sa=X&ved=0ahUKEwjyz4HZwYSFAxVQEVkFHaEhDn84ZBD8BQgHKAI
+2024-03-21 00:26:07,007 [MainThread  ] [DEBUG] Excluding URL because it does not contain a urllib.parse.urlparse netloc value: /search?q=%224D+Molecular+Therapeutics+Inc.(FDMT)%22+Usage+of+generative+AI&num=100&lr=lang_en&safe=off&sca_esv=78bf11b474d34c1d&hl=en&tbs=lr:lang_1en&tbm=bks&source=lnms&sa=X&ved=0ahUKEwjyz4HZwYSFAxVQEVkFHaEhDn84ZBD8BQgHKAI
+2024-03-21 00:26:07,008 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2024-03-21 00:26:07,009 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /search?q=%224D+Molecular+Therapeutics+Inc.(FDMT)%22+Usage+of+generative+AI&num=100&lr=lang_en&safe=off&sca_esv=78bf11b474d34c1d&hl=en&tbs=lr:lang_1en&tbm=isch&source=lnms&sa=X&ved=0ahUKEwjyz4HZwYSFAxVQEVkFHaEhDn84ZBD8BQgIKAM
+2024-03-21 00:26:07,009 [MainThread  ] [DEBUG] Excluding URL because it does not contain a urllib.parse.urlparse netloc value: /search?q=%224D+Molecular+Therapeutics+Inc.(FDMT)%22+Usage+of+generative+AI&num=100&lr=lang_en&safe=off&sca_esv=78bf11b474d34c1d&hl=en&tbs=lr:lang_1en&tbm=isch&source=lnms&sa=X&ved=0ahUKEwjyz4HZwYSFAxVQEVkFHaEhDn84ZBD8BQgIKAM
+2024-03-21 00:26:07,010 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2024-03-21 00:26:07,010 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /url?url=https://maps.google.com/maps%3Fhl%3Den%26lr%3Dlang_en%26q%3D%25224D%2BMolecular%2BTherapeutics%2BInc.(FDMT)%2522%2BUsage%2Bof%2Bgenerative%2BAI%26num%3D100%26safe%3Doff%26cr%3D%26filter%3D0%26um%3D1%26ie%3DUTF-8%26ved%3D1t:200713%26ictx%3D111&rct=j&q=&esrc=s&opi=89978449&sa=U&ved=0ahUKEwjyz4HZwYSFAxVQEVkFHaEhDn84ZBCJoAwICSgE&usg=AOvVaw2BfJ-k_w4e6kYVKNXmAhtK
+2024-03-21 00:26:07,011 [MainThread  ] [DEBUG] Excluding URL because it contains "google": https://maps.google.com/maps?hl=en&lr=lang_en&q=%224D+Molecular+Therapeutics+Inc.(FDMT)%22+Usage+of+generative+AI&num=100&safe=off&cr=&filter=0&um=1&ie=UTF-8&ved=1t:200713&ictx=111
+2024-03-21 00:26:07,011 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2024-03-21 00:26:07,012 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /search?q=%224D+Molecular+Therapeutics+Inc.(FDMT)%22+Usage+of+generative+AI&num=100&lr=lang_en&safe=off&sca_esv=78bf11b474d34c1d&hl=en&tbs=lr:lang_1en&tbm=vid&source=lnms&sa=X&ved=0ahUKEwjyz4HZwYSFAxVQEVkFHaEhDn84ZBD8BQgKKAU
+2024-03-21 00:26:07,013 [MainThread  ] [DEBUG] Excluding URL because it does not contain a urllib.parse.urlparse netloc value: /search?q=%224D+Molecular+Therapeutics+Inc.(FDMT)%22+Usage+of+generative+AI&num=100&lr=lang_en&safe=off&sca_esv=78bf11b474d34c1d&hl=en&tbs=lr:lang_1en&tbm=vid&source=lnms&sa=X&ved=0ahUKEwjyz4HZwYSFAxVQEVkFHaEhDn84ZBD8BQgKKAU
+2024-03-21 00:26:07,013 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2024-03-21 00:26:07,013 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: http://www.google.com/url?url=/search%3Fq%3D%25224D%2BMolecular%2BTherapeutics%2BInc.(FDMT)%2522%2BUsage%2Bof%2Bgenerative%2BAI%26num%3D100%26lr%3Dlang_en%26safe%3Doff%26sca_esv%3D78bf11b474d34c1d%26hl%3Den%26tbs%3Dlr:lang_1en%26tbm%3Dshop%26source%3Dlnms%26ved%3D1t:200713%26ictx%3D111&rct=j&q=&esrc=s&opi=89978449&sa=U&ved=0ahUKEwjyz4HZwYSFAxVQEVkFHaEhDn84ZBCJoAwICygG&usg=AOvVaw2SW4eQvZxO99_mQ9mJsh8B
+2024-03-21 00:26:07,014 [MainThread  ] [DEBUG] Excluding URL because it does not contain a urllib.parse.urlparse netloc value: /search?q=%224D+Molecular+Therapeutics+Inc.(FDMT)%22+Usage+of+generative+AI&num=100&lr=lang_en&safe=off&sca_esv=78bf11b474d34c1d&hl=en&tbs=lr:lang_1en&tbm=shop&source=lnms&ved=1t:200713&ictx=111
+2024-03-21 00:26:07,014 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2024-03-21 00:26:07,015 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /advanced_search
+2024-03-21 00:26:07,015 [MainThread  ] [DEBUG] Excluding URL because it does not contain a urllib.parse.urlparse netloc value: /advanced_search
+2024-03-21 00:26:07,016 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2024-03-21 00:26:07,016 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /search?q=%224D+Molecular+Therapeutics+Inc.(FDMT)%22+Usage+of+generative+AI&num=100&safe=off&sca_esv=78bf11b474d34c1d&hl=en&tbas=0&source=lnt&sa=X&ved=0ahUKEwjyz4HZwYSFAxVQEVkFHaEhDn84ZBCnBQgM
+2024-03-21 00:26:07,016 [MainThread  ] [DEBUG] Excluding URL because it does not contain a urllib.parse.urlparse netloc value: /search?q=%224D+Molecular+Therapeutics+Inc.(FDMT)%22+Usage+of+generative+AI&num=100&safe=off&sca_esv=78bf11b474d34c1d&hl=en&tbas=0&source=lnt&sa=X&ved=0ahUKEwjyz4HZwYSFAxVQEVkFHaEhDn84ZBCnBQgM
+2024-03-21 00:26:07,017 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2024-03-21 00:26:07,018 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /search?q=%224D+Molecular+Therapeutics+Inc.(FDMT)%22+Usage+of+generative+AI&num=100&lr=lang_en&safe=off&sca_esv=78bf11b474d34c1d&hl=en&tbs=lr:lang_1en,qdr:h&source=lnt&sa=X&ved=0ahUKEwjyz4HZwYSFAxVQEVkFHaEhDn84ZBCnBQgP
+2024-03-21 00:26:07,018 [MainThread  ] [DEBUG] Excluding URL because it does not contain a urllib.parse.urlparse netloc value: /search?q=%224D+Molecular+Therapeutics+Inc.(FDMT)%22+Usage+of+generative+AI&num=100&lr=lang_en&safe=off&sca_esv=78bf11b474d34c1d&hl=en&tbs=lr:lang_1en,qdr:h&source=lnt&sa=X&ved=0ahUKEwjyz4HZwYSFAxVQEVkFHaEhDn84ZBCnBQgP
+2024-03-21 00:26:07,019 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2024-03-21 00:26:07,019 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /search?q=%224D+Molecular+Therapeutics+Inc.(FDMT)%22+Usage+of+generative+AI&num=100&lr=lang_en&safe=off&sca_esv=78bf11b474d34c1d&hl=en&tbs=lr:lang_1en,qdr:d&source=lnt&sa=X&ved=0ahUKEwjyz4HZwYSFAxVQEVkFHaEhDn84ZBCnBQgQ
+2024-03-21 00:26:07,020 [MainThread  ] [DEBUG] Excluding URL because it does not contain a urllib.parse.urlparse netloc value: /search?q=%224D+Molecular+Therapeutics+Inc.(FDMT)%22+Usage+of+generative+AI&num=100&lr=lang_en&safe=off&sca_esv=78bf11b474d34c1d&hl=en&tbs=lr:lang_1en,qdr:d&source=lnt&sa=X&ved=0ahUKEwjyz4HZwYSFAxVQEVkFHaEhDn84ZBCnBQgQ
+2024-03-21 00:26:07,020 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2024-03-21 00:26:07,021 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /search?q=%224D+Molecular+Therapeutics+Inc.(FDMT)%22+Usage+of+generative+AI&num=100&lr=lang_en&safe=off&sca_esv=78bf11b474d34c1d&hl=en&tbs=lr:lang_1en,qdr:w&source=lnt&sa=X&ved=0ahUKEwjyz4HZwYSFAxVQEVkFHaEhDn84ZBCnBQgR
+2024-03-21 00:26:07,022 [MainThread  ] [DEBUG] Excluding URL because it does not contain a urllib.parse.urlparse netloc value: /search?q=%224D+Molecular+Therapeutics+Inc.(FDMT)%22+Usage+of+generative+AI&num=100&lr=lang_en&safe=off&sca_esv=78bf11b474d34c1d&hl=en&tbs=lr:lang_1en,qdr:w&source=lnt&sa=X&ved=0ahUKEwjyz4HZwYSFAxVQEVkFHaEhDn84ZBCnBQgR
+2024-03-21 00:26:07,022 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2024-03-21 00:26:07,023 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /search?q=%224D+Molecular+Therapeutics+Inc.(FDMT)%22+Usage+of+generative+AI&num=100&lr=lang_en&safe=off&sca_esv=78bf11b474d34c1d&hl=en&tbs=lr:lang_1en,qdr:m&source=lnt&sa=X&ved=0ahUKEwjyz4HZwYSFAxVQEVkFHaEhDn84ZBCnBQgS
+2024-03-21 00:26:07,023 [MainThread  ] [DEBUG] Excluding URL because it does not contain a urllib.parse.urlparse netloc value: /search?q=%224D+Molecular+Therapeutics+Inc.(FDMT)%22+Usage+of+generative+AI&num=100&lr=lang_en&safe=off&sca_esv=78bf11b474d34c1d&hl=en&tbs=lr:lang_1en,qdr:m&source=lnt&sa=X&ved=0ahUKEwjyz4HZwYSFAxVQEVkFHaEhDn84ZBCnBQgS
+2024-03-21 00:26:07,024 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2024-03-21 00:26:07,024 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /search?q=%224D+Molecular+Therapeutics+Inc.(FDMT)%22+Usage+of+generative+AI&num=100&lr=lang_en&safe=off&sca_esv=78bf11b474d34c1d&hl=en&tbs=lr:lang_1en,qdr:y&source=lnt&sa=X&ved=0ahUKEwjyz4HZwYSFAxVQEVkFHaEhDn84ZBCnBQgT
+2024-03-21 00:26:07,025 [MainThread  ] [DEBUG] Excluding URL because it does not contain a urllib.parse.urlparse netloc value: /search?q=%224D+Molecular+Therapeutics+Inc.(FDMT)%22+Usage+of+generative+AI&num=100&lr=lang_en&safe=off&sca_esv=78bf11b474d34c1d&hl=en&tbs=lr:lang_1en,qdr:y&source=lnt&sa=X&ved=0ahUKEwjyz4HZwYSFAxVQEVkFHaEhDn84ZBCnBQgT
+2024-03-21 00:26:07,025 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2024-03-21 00:26:07,025 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /search?q=%224D+Molecular+Therapeutics+Inc.(FDMT)%22+Usage+of+generative+AI&num=100&safe=off&sca_esv=78bf11b474d34c1d&hl=en&tbs=li:1&source=lnt&sa=X&ved=0ahUKEwjyz4HZwYSFAxVQEVkFHaEhDn84ZBCnBQgV
+2024-03-21 00:26:07,026 [MainThread  ] [DEBUG] Excluding URL because it does not contain a urllib.parse.urlparse netloc value: /search?q=%224D+Molecular+Therapeutics+Inc.(FDMT)%22+Usage+of+generative+AI&num=100&safe=off&sca_esv=78bf11b474d34c1d&hl=en&tbs=li:1&source=lnt&sa=X&ved=0ahUKEwjyz4HZwYSFAxVQEVkFHaEhDn84ZBCnBQgV
+2024-03-21 00:26:07,026 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2024-03-21 00:26:07,026 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /search?q=%224D+Molecular+Therapeutics+Inc.(FDMT)%22+Usage+of+generative+AI&num=100&lr=lang_en&safe=off&sca_esv=78bf11b474d34c1d&hl=en&tbs=lr:lang_1en&ei=3rb7ZfLoLdCi5NoPocO4-Ac&start=0&sa=N&filter=0
+2024-03-21 00:26:07,027 [MainThread  ] [DEBUG] Excluding URL because it does not contain a urllib.parse.urlparse netloc value: /search?q=%224D+Molecular+Therapeutics+Inc.(FDMT)%22+Usage+of+generative+AI&num=100&lr=lang_en&safe=off&sca_esv=78bf11b474d34c1d&hl=en&tbs=lr:lang_1en&ei=3rb7ZfLoLdCi5NoPocO4-Ac&start=0&sa=N&filter=0
+2024-03-21 00:26:07,027 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2024-03-21 00:26:07,028 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /url?url=https://support.google.com/websearch%3Fp%3Dws_settings_location%26hl%3Den&rct=j&q=&esrc=s&opi=89978449&sa=U&ved=0ahUKEwjyz4HZwYSFAxVQEVkFHaEhDn84ZBC3LggZ&usg=AOvVaw0wgG8hbeF3NKIrRu_9I_Qx
+2024-03-21 00:26:07,028 [MainThread  ] [DEBUG] Excluding URL because it contains "google": https://support.google.com/websearch?p=ws_settings_location&hl=en
+2024-03-21 00:26:07,029 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2024-03-21 00:26:07,029 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /url?url=https://accounts.google.com/ServiceLogin%3Fcontinue%3Dhttps://www.google.com/search%253Fhl%253Den%2526lr%253Dlang_en%2526q%253D%2525224D%252BMolecular%252BTherapeutics%252BInc.(FDMT)%252522%252BUsage%252Bof%252Bgenerative%252BAI%2526start%253D100%2526num%253D100%2526tbs%253D0%2526safe%253Doff%2526cr%253D%2526filter%253D0%26hl%3Den&rct=j&q=&esrc=s&opi=89978449&sa=U&ved=0ahUKEwjyz4HZwYSFAxVQEVkFHaEhDn84ZBDGzwIIGg&usg=AOvVaw1TKHMvMkhMsSE2T_PQ55yv
+2024-03-21 00:26:07,030 [MainThread  ] [DEBUG] Excluding URL because it contains "google": https://accounts.google.com/ServiceLogin?continue=https://www.google.com/search%3Fhl%3Den%26lr%3Dlang_en%26q%3D%25224D%2BMolecular%2BTherapeutics%2BInc.(FDMT)%2522%2BUsage%2Bof%2Bgenerative%2BAI%26start%3D100%26num%3D100%26tbs%3D0%26safe%3Doff%26cr%3D%26filter%3D0&hl=en
+2024-03-21 00:26:07,030 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2024-03-21 00:26:07,030 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: https://www.google.com/preferences?hl=en&fg=1&sa=X&ved=0ahUKEwjyz4HZwYSFAxVQEVkFHaEhDn84ZBDl9QIIGw
+2024-03-21 00:26:07,030 [MainThread  ] [DEBUG] Excluding URL because it contains "google": https://www.google.com/preferences?hl=en&fg=1&sa=X&ved=0ahUKEwjyz4HZwYSFAxVQEVkFHaEhDn84ZBDl9QIIGw
+2024-03-21 00:26:07,031 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2024-03-21 00:26:07,031 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: https://policies.google.com/privacy?hl=en&fg=1
+2024-03-21 00:26:07,031 [MainThread  ] [DEBUG] Excluding URL because it contains "google": https://policies.google.com/privacy?hl=en&fg=1
+2024-03-21 00:26:07,032 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2024-03-21 00:26:07,032 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: https://policies.google.com/terms?hl=en&fg=1
+2024-03-21 00:26:07,032 [MainThread  ] [DEBUG] Excluding URL because it contains "google": https://policies.google.com/terms?hl=en&fg=1
+2024-03-21 00:26:07,033 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2024-03-21 00:26:07,033 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /setprefs?hl=en&prev=https://www.google.com/search?hl%3Den%26lr%3Dlang_en%26q%3D%25224D%2BMolecular%2BTherapeutics%2BInc.(FDMT)%2522%2BUsage%2Bof%2Bgenerative%2BAI%26start%3D100%26num%3D100%26tbs%3D0%26safe%3Doff%26cr%26filter%3D0%26pccc%3D1&sig=0_972vRaGOh5kdUIDZmZtM8BIdczo%3D&cs=2&sa=X&ved=0ahUKEwjyz4HZwYSFAxVQEVkFHaEhDn84ZBCNwAkIHA
+2024-03-21 00:26:07,033 [MainThread  ] [DEBUG] Excluding URL because it does not contain a urllib.parse.urlparse netloc value: /setprefs?hl=en&prev=https://www.google.com/search?hl%3Den%26lr%3Dlang_en%26q%3D%25224D%2BMolecular%2BTherapeutics%2BInc.(FDMT)%2522%2BUsage%2Bof%2Bgenerative%2BAI%26start%3D100%26num%3D100%26tbs%3D0%26safe%3Doff%26cr%26filter%3D0%26pccc%3D1&sig=0_972vRaGOh5kdUIDZmZtM8BIdczo%3D&cs=2&sa=X&ved=0ahUKEwjyz4HZwYSFAxVQEVkFHaEhDn84ZBCNwAkIHA
+2024-03-21 00:26:07,033 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2024-03-21 00:26:07,034 [MainThread  ] [INFO] No valid search results found on this page.  Moving on...
